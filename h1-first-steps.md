@@ -28,3 +28,5 @@ Moral of the story is: don't anger a haXXor lol jk take care of your passwords. 
   1. the defenders always need to be able to detect the intruder
   2. do your best to deny access or
   3. at least make the intruders efforts costly and/or tedious
+# Debian running on VirtualBox
+![Screenshot from 2023-08-25 18-26-26](https://github.com/RenneJ/hh-infosec-course/assets/97522117/77e276df-c36f-4202-9fb7-bd04b508ca8a)
