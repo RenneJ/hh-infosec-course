@@ -17,4 +17,4 @@
 - these are classic examples of lateral movement, after getting into a system he hops onto a different computer gaining more privileged access each hop
 - Adam ends up getting access to domain and server controllers, just from knowing the domain name and slightly altering his old password
 - in a fear of getting caught or as an act of vengeance against his former employer or both Adam wipes everything clear, what he wipes cannot be even booted again
-### Moral of the story is: don't anger a haXXor lol jk take care of your passwords. Change them regularly, don't form patterns and and change them again when someone with admin level leaves or is let go from the organization!
+### Moral of the story is: don't anger a haXXor lol jk take care of your passwords. Change them regularly, don't form patterns and change them again when someone with admin level leaves or is let go from the organization!
