@@ -44,3 +44,8 @@ This is the method I actually got the right answer in the first place. But I was
 4. With a quick glance you'll find the tag <input id=networkNumCopy ... value=*RANDOMISED NUMBER*>. You can also spam click **GO** and you should see a value highlighted and changing each click.
 5. Copy the number from the dev tools view into the check field.
 ### ![Screenshot from 2023-09-01 18-42-09](https://github.com/RenneJ/hh-infosec-course/assets/97522117/b49e5190-8504-4aee-9e6b-6663c91b732e)
+
+#### Thoughts/notes on the assignment and challenge
+I struggled in the beginning of the challlenge quite much as the Firefox tools differ slightly from Chrome's. After rigorous and frustrating googling I started to tediously go through the Network requests. I must have refreshed the page and not clicked the **GO** button, paused the logging of network requests or I had incorrect filters on because I'm sure I would have checked the log file named **network**.
+
+I stumbled upon the Method B as I was trying to find out the name (or any kind of information) about the request being sent. I got to the "right" method after clearing the network log cache and trying the **GO** button again. It was much simpler to spot the right file when there aren't >100 log entries to sieve through.
