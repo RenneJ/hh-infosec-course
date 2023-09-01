@@ -13,8 +13,11 @@ You can check the status of your firewall on debian using the command below:
 ### ![Screenshot from 2023-09-01 12-29-59](https://github.com/RenneJ/hh-infosec-course/assets/97522117/276b29b7-8013-4917-8027-9ff5c53b87e0)
 Continuing Tero's instructions I downloaded and installed WebGoat:
 - $ wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar
-- $ java -jar webgoat-server-8.0.0.M26.jar
 ### ![Screenshot from 2023-09-01 14-36-27](https://github.com/RenneJ/hh-infosec-course/assets/97522117/abb69fc1-6404-4f6e-9007-c4f497bb51f5)
+
+- $ java -jar webgoat-server-8.0.0.M26.jar
+
+Below the default view of WebGoat after siging in.
 ### ![Screenshot from 2023-09-01 14-42-28](https://github.com/RenneJ/hh-infosec-course/assets/97522117/66b2b9c7-af98-46bb-b86e-b85530003358)
 
 ### DevTools
