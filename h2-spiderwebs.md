@@ -34,11 +34,13 @@ I'm guessing this is the intended way to pass the challenge. When you're on the 
 5. Click the result under the name of **network**.
 6. A new view under or next to results will pop up (depending on your dev tools display orientation).
 7. Copy the value after **networkNum** to the check field on html page.
+### ![Screenshot from 2023-09-01 18-42-09](https://github.com/RenneJ/hh-infosec-course/assets/97522117/b49e5190-8504-4aee-9e6b-6663c91b732e)
+
 #### Method B: Inspect the element
 This is the method I actually got the right answer in the first place. But I was dissatisfied as I thought this method was not the intended way to come to the right result.
 1. On the **Try it yourself** page open **Inspector** tab of dev tools.
 2. Next to the **Inspector** tab there's a button that opens an element picker. Element picker highlights on hover the html element and dev tools will navigate the html document to the corresponding line.
 3. Click the field where you would paste the answer to (or anywhere inside the correct element e.g. the submit button).
 4. With a quick glance you'll find the tag <input id=networkNumCopy ... value=*RANDOMISED NUMBER*>. You can also spam click **GO** and you should see a value highlighted and changing each click.
-5. Copy the number from 
-6. 
+5. Copy the number from the dev tools view into the check field.
+### 
