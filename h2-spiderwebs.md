@@ -26,7 +26,7 @@ The only problem I faced was finding ***Sources*** tab from Firefox dev tools. B
 
 The challenge in this part was to find a randomised number from a specific HTTP request initiated by a click of a button on the html page.
 #### Method A: Network tools
-I'm guessing this is the intended way to pass the challenge. When you're on the **Try it yourself** -page:
+I'm guessing this is the intended way to pass the challenge. When you're on the **Try it!** page:
 1. Open dev tools (F12 or CTRL +Shift+I or Application Menu -> More Tools -> Web Developer Tools.
 2. Open ***Network*** tab. If it's not listed on the top of the tools view click >>.
 3. Click **GO** on the html page.
@@ -38,7 +38,7 @@ I'm guessing this is the intended way to pass the challenge. When you're on the 
 
 #### Method B: Inspect the element
 This is the method I actually got the right answer in the first place. But I was dissatisfied as I thought this method was not the intended way to come to the right result.
-1. On the **Try it yourself** page open **Inspector** tab of dev tools.
+1. On the **Try it!** page open **Inspector** tab of dev tools.
 2. Next to the **Inspector** tab there's a button that opens an element picker. Element picker highlights on hover the html element and dev tools will navigate the html document to the corresponding line.
 3. Click the field where you would paste the answer to (or anywhere inside the correct element e.g. the submit button).
 4. With a quick glance you'll find the tag <input id=networkNumCopy ... value=*RANDOMISED NUMBER*>. You can also spam click **GO** and you should see a value highlighted and changing each click.
