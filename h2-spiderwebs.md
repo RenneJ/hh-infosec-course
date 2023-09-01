@@ -19,4 +19,4 @@ Continuing Tero's instructions I downloaded and installed WebGoat:
 
 ### DevTools
 Athough the instructions were for Google Chrome I completed the WebGoat developer tools challenge with Mozilla Firefox dev tools.
-The only problem I faced was finding *Sources*-tab from Firefox dev tools.
+The only problem I faced was finding *Sources*-tab from Firefox dev tools. But on Firefox the *Debugger* and *Style Editor* tabs present the same kind of information.
