@@ -49,7 +49,9 @@ I find it interesting that the recognition and prevention are very similar. Why 
 
 ### Summary: A03 Injection
 
-Injections are an attacker's attempts to manipulate commands sent in an application to interpreter.
+Injections are an attacker's attempts to manipulate commands sent in an application to interpreter. A system is vulnerable when:
+
+- User submitted data isn't validated or filtered.
 
 ## WebGoat
 
@@ -94,7 +96,7 @@ The challenge in this part was to find a randomised number from a specific HTTP 
 
 I'm guessing this is the intended way to pass the challenge. When you're on the **Try it!** page:
 
-1. Open dev tools (F12 or CTRL +Shift+I or Application Menu -> More Tools -> Web Developer Tools.
+1. Open dev tools (F12 or CTRL +Shift+I or Application Menu -> More Tools -> Web Developer Tools).
 2. Open ***Network*** tab. If it's not listed on the top of the tools view click >>.
 3. Click **GO** on the html page.
 4. Sort All results by File name.
@@ -106,7 +108,7 @@ I'm guessing this is the intended way to pass the challenge. When you're on the 
 
 #### Method B: Inspect the element
 
-This is the method I actually got the right answer in the first place. But I was dissatisfied as I thought this method was not the intended way to come to the right result.
+This is the method I actually got the right answer in the first place. But I was dissatisfied as I thought this method was not the intended way to get the right result.
 
 1. On the **Try it!** page open **Inspector** tab of dev tools.
 2. Next to the **Inspector** tab there's a button that opens an element picker. Element picker highlights on hover the html element and dev tools will navigate the html document to the corresponding line.
