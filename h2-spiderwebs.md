@@ -4,7 +4,7 @@
 
 ### Summary: A05 Security Misconfiguration
 
-Security misconfiguration is a category of 20 mapped CWEs (Common Weakness Enumerations). To my understanding it means that there are 20 different types of exploits or vulnerabilities.
+Security misconfiguration is a category of 20 mapped CWEs (Common Weakness Enumerations). It means that there are 20 different types (or subcategories) of exploits or vulnerabilities.
 Misconfiguration is a *root cause* type as opposed to *symptom* types such as Denial of Service.
 
 System admins or programmers have left improper permissions for users to access files/directories or error messages contain sensitive information that can be exploited.
@@ -19,7 +19,12 @@ Examples:
 
 General preventative measures and best practices against Security Misconfiguration vulnerabilities:
 
-- Text here
+- Development, quality assurance (i.e. testing) and production environments need to be configured identically with different credentials. This can and should be automated.
+- Don't ship anything unnecessary. Remove or don't install unused features and frameworks.
+- During patch management review and update the configurations appropriate to all security notes, updates, and patches.
+- Segmented architecture. It is safer to keep different parts separated.
+- Sending security directives to clients
+- Verify the effectiveness of configurations.
 
 ### Summary: A06 Vulnerable and Outdated Components
 
