@@ -63,7 +63,8 @@ Injections are an attacker's attempts to manipulate commands sent in an applicat
 Prevention:
 
 - Use trusted APIs to avoid using interpreter altogether (remember safe usage regarding components).
-- Use positive server-side input validation. Check that the user's input is correct on the server instead of on the client. (Is there negative input validation? Quick googling yielded no appropriate hits) 
+- Use positive server-side input validation. Check that the user's input is correct on the server instead of on the client. (Is there negative input validation? Quick googling yielded no appropriate hits.) 
+- Use SQL controls like LIMIT to prevent massive outputs data.
 
 ## WebGoat
 
