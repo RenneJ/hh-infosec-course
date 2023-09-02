@@ -49,6 +49,8 @@ I find it interesting that the recognition and prevention are very similar. Why 
 
 ### Summary: A03 Injection
 
+Injections are an attacker's attempts to manipulate commands sent in an application to interpreter.
+
 ## WebGoat
 
 ### Installation
