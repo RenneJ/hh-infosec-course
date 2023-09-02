@@ -5,8 +5,10 @@ Security misconfiguration is a category of 20 mapped CWEs (Common Weakness Enume
 Misconfiguration is a *root cause* type as opposed to *symptom* types such as Denial of Service.
 
 In a nutshell:
-- System admins or programmers have left improper permissions for users to access files/directories or error messages contain sensitive information that can be exploited.
-  - Eg. Password in Configuration file (CWE-260)
+- System admins or programmers have left improper permissions for users to access files/directories or error messages contain sensitive information that can be exploited. Eg.:
+  - Password in Configuration file (CWE-260)
+    - Solution: Either prevent access to configuration files or encrypt passwords and usernames. I say, why not both? 
+  - Missing Custom Error Page (CWE-756)
 ### Summary: A06 Vulnerable and Outdated Components
 
 ### Summary: A03 Injection
