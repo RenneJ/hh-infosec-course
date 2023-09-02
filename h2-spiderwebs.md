@@ -2,7 +2,7 @@
 
 ## OWASP 10 2021
 
-### Summary: A05 Security Misconfiguration
+### Summary: A05 Security Misconfiguration (https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
 
 Security misconfiguration is a category of 20 mapped CWEs (Common Weakness Enumerations). It means that there are 20 different types (or subcategories) of exploits or vulnerabilities.
 Misconfiguration is a *root cause* type as opposed to *symptom* types such as Denial of Service.
@@ -27,7 +27,7 @@ General preventative measures and best practices against Security Misconfigurati
 - Sending security directives to clients.
 - Verify the effectiveness of configurations.
 
-### Summary: A06 Vulnerable and Outdated Components
+### Summary: A06 Vulnerable and Outdated Components (https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
 
 Vulnerable and Outdated Components is a category of 3 mapped CWEs (2 of them being former TOP10 categories).  This category was placed #2 on the OWASP survey. There are no CVEs (Common Vulnerability and Exposure) mapped to A06 whereas the above summary of A05 has 789 CVEs.
 
@@ -47,7 +47,7 @@ Prevention:
 
 I find it interesting that the recognition and prevention are very similar. Why do you think that is so?
 
-### Summary: A03 Injection
+### Summary: A03 Injection (https://owasp.org/Top10/A03_2021-Injection/)
 
 Injections are an attacker's attempts to manipulate commands sent in an application to interpreter. A system is vulnerable when:
 
@@ -55,7 +55,9 @@ Injections are an attacker's attempts to manipulate commands sent in an applicat
 - There's no context-aware escaping.
   - ![Screenshot from 2023-09-02 16-20-17](https://github.com/RenneJ/hh-infosec-course/assets/97522117/93c2ea72-73e2-4122-a52d-e8b38fb32738)
 
-Image source: jmaloney 2015 https://stackoverflow.com/questions/28142771/what-are-context-aware-variables. 
+Image source: jmaloney 2015 https://stackoverflow.com/questions/28142771/what-are-context-aware-variables.
+
+- *Hostile data is used within object-relational mapping (ORM) search parameters to extract additional, sensitive records.* (I am unsure what this means)
 
 ## WebGoat
 
