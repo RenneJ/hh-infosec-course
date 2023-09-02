@@ -52,6 +52,9 @@ I find it interesting that the recognition and prevention are very similar. Why 
 Injections are an attacker's attempts to manipulate commands sent in an application to interpreter. A system is vulnerable when:
 
 - User submitted data isn't validated or filtered.
+- There's no context-aware escaping.
+![Screenshot from 2023-09-02 16-20-17](https://github.com/RenneJ/hh-infosec-course/assets/97522117/93c2ea72-73e2-4122-a52d-e8b38fb32738)
+Image source: jmaloney 2015 https://stackoverflow.com/questions/28142771/what-are-context-aware-variables. 
 
 ## WebGoat
 
