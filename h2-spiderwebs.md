@@ -12,9 +12,9 @@ Examples:
 - Missing Custom Error Page (CWE-756)
   - Prevention: The software needs to be programmed in such a way that the user doesn't get the full stack trace. Configuration files need to enable the custom error page.
   - This CWE represents a flaw in the source code.
-
 General preventative measures against Security Misconfiguration weaknesses:
 - 
+
 ### Summary: A06 Vulnerable and Outdated Components
 
 ### Summary: A03 Injection
