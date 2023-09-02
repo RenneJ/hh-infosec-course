@@ -1,4 +1,16 @@
 # H2: Spiderwebs
+## OWASP 10 2021
+### Summary: A05 Security Misconfiguration
+Security misconfiguration is a category of 20 mapped CWEs (Common Weakness Enumerations). To my understanding it means that there are 20 different types of exploits or vulnerabilities.
+Misconfiguration is a *root cause* type as opposed to *symptom* types such as Denial of Service.
+
+In a nutshell:
+- System admins or programmers have left improper permissions for users to access files/directories or error messages contain sensitive information that can be exploited.
+-- Eg. Password in Configuration file (CWE-260)
+### Summary: A06 Vulnerable and Outdated Components
+
+### Summary: A03 Injection
+
 ## WebGoat
 ### Installation
 Following Tero's guide I was able to install Java tools. This was done on Monday 28th. I replaced the older jdk version 
