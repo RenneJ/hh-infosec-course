@@ -35,9 +35,17 @@ Vulnerable and Outdated Components refer to any OS, web/app servers, APIs, libra
 
 Recognizing vulnerabilities:
 
-- 
+- Know your system. You need to know the components and their dependencies in your system.
+- Scan regularly for vulnerabilities and subscribe to security bulletins regarding the components you use.
+- Test for compabilities of updated components.
 
+Prevention:
 
+- Remove unused components.
+- Meticulous monitoring of components' updates.
+- Obtain components from official sources over secure links.
+
+I find it interesting that the recognition and prevention are very similar. Why do you think that is so?
 
 ### Summary: A03 Injection
 
