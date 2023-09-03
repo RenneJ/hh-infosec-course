@@ -160,6 +160,6 @@ I had to check the solution to the challenge due to time limitations (I forgot t
 
 Afterwards I tried to come to the same result via different method.
 
-### ![Screenshot from 2023-09-03 12-50-33](https://github.com/RenneJ/hh-infosec-course/assets/97522117/265257603-dff03a0b-2496-4293-ad9b-4c10870480c0.png
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/dff0af94-d28d-4827-a0f2-938a4dc86203)
 
 SUCCESS! What sort of solutions did you come up with?
