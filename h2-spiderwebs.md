@@ -146,6 +146,14 @@ This is the method I actually got the right answer in the first place. But I was
 
 #### Thoughts/notes on the assignment and challenge
 
-I struggled in the beginning of the challlenge quite much as the Firefox tools differ slightly from Chrome's. After rigorous and frustrating googling I started to tediously go through the Network requests. I must have refreshed the page and not clicked the **GO** button, paused the logging of network requests or I had incorrect filters on because I'm sure I would have checked the log entry with file named **network**.
+I struggled in the beginning of the challenge quite much as the Firefox tools differ slightly from Chrome's. After rigorous and frustrating googling I started to tediously go through the Network requests. I must have refreshed the page and not clicked the **GO** button, paused the logging of network requests or I had incorrect filters on because I'm sure I would have checked the log entry with file named **network**.
 
 I stumbled upon the Method B as I was trying to find out the name (or any kind of information) about the request being sent. I got to the "right" method after clearing the network log cache and trying the **GO** button again. It was much simpler to spot the right file when there aren't >100 log entries to sieve through.
+
+## Portswigger
+
+### SQL injection
+
+I had to check the solution to the challenge due to time limitations (I forgot that the homework needs to be sent 24h before the class on Monday). I successfully got the solution after looking the hints on th challenge page.
+
+### 
