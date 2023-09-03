@@ -160,4 +160,6 @@ I had to check the solution to the challenge due to time limitations (I forgot t
 
 Afterwards I tried to come to the same result via different method.
 
-### 
+### https://user-images.githubusercontent.com/97522117/265257603-dff03a0b-2496-4293-ad9b-4c10870480c0.png
+
+SUCCESS! What sort of solutions did you come up with?
