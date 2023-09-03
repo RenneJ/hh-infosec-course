@@ -154,6 +154,10 @@ I stumbled upon the Method B as I was trying to find out the name (or any kind o
 
 ### SQL injection
 
-I had to check the solution to the challenge due to time limitations (I forgot that the homework needs to be sent 24h before the class on Monday). I successfully got the solution after looking the hints on th challenge page.
+I had to check the solution to the challenge due to time limitations (I forgot that the homework needs to be sent 24h before the class on Monday). I successfully got the solution after looking the hints on the challenge page.
+
+### ![Screenshot from 2023-09-03 12-50-33](https://github.com/RenneJ/hh-infosec-course/assets/97522117/fb993267-799c-4292-82b2-31dea4a4d2b3)
+
+Afterwards I tried to come to the same result via different method.
 
 ### 
