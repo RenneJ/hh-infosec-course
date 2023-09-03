@@ -150,10 +150,16 @@ I struggled in the beginning of the challenge quite much as the Firefox tools di
 
 I stumbled upon the Method B as I was trying to find out the name (or any kind of information) about the request being sent. I got to the "right" method after clearing the network log cache and trying the **GO** button again. It was much simpler to spot the right file when there aren't >100 log entries to sieve through.
 
+## Updating apps and OS on debian
+
+$ sudo apt update
+$ sudo apt upgrade 
+
 ## SQLZoo
 
 SQL Zoo was down when I tried to do the assignment.
 
+### ![Screenshot from 2023-09-03 13-11-25](https://github.com/RenneJ/hh-infosec-course/assets/97522117/49689f28-7aa2-4ea3-8cd1-6caf1c0cb11f)
 
 
 ## Portswigger
