@@ -15,7 +15,9 @@ There are two types of access control:
 Examples of broken acces control from portswigger:
 
 - Unprotected functionality
-  - User gains access to admin panel by guessing (or brute forcing) the path e.g. <span>https</span>://insecure-website.com/admin
+  - User gains access to admin panel by guessing (or brute forcing) the URL e.g. <span>https</span>://insecure-website.com/admin
+ - User role controlled by request parameter
+   - Admin panel is login protected but changing cookie **Admin=false** to **Admin=true** works
 
 ### Sources:
 - Lutkevich, B. 2022. access control. TechTarget. https://www.techtarget.com/searchsecurity/definition/access-control
