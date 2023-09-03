@@ -66,6 +66,19 @@ Prevention:
 - Use positive server-side input validation. Check that the user's input is correct on the server instead of on the client. (Is there negative input validation? Quick googling yielded no appropriate hits.) 
 - Use SQL controls like LIMIT to prevent massive outputs data.
 
+Example (CWE-1287: Improper Validation of Specified Type of Input):
+
+- A child of CWE-20: Improper Input Validation
+- When an app's certain functionality is built to handle a specific type of data it is important to validate the user input to be the right type
+  - If not: the attacker might be able to cause unexpected errors or trigger unwanted events
+- This type of attack is more prevalent against products with type-unsafe languages (eg. PHP) or in languages that support casting (eg. C)
+
+Mitigation:
+
+- Assume all input is malicious.
+- Accept only predetermined "good" input, if user input doesn't adhere to the specifications don't accept it
+- Take into consideration length, type of input, the full range of acceptable values, missing or extra inputs, syntax, consistency across related fields, and conformance to business rules.
+
 ## WebGoat
 
 ### Installation
