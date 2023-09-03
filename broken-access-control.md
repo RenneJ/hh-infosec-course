@@ -9,5 +9,14 @@ There are two types of access control:
 - Logical: limiting access to networks and system files.
   - ID authentication and authorization: passwords, PIN, biometric scans (fingerprints). Multifactor authentication 
   takes into account multiple authentication methods.
+  - In an organization admins should only allow access to specific directories or files to persons who really need it to perform their duties.
+    - Eg. don't authorize a front desk employee to read/write/execute files regarding employee salaries.
+   
+Examples of broken acces control from portswigger:
+
+- Unprotected functionality
+  - User gains access to admin panel by guessing (or brute forcing) the path e.g. https://insecure-website.com/admin
+
 ### Sources:
 - Lutkevich, B. 2022. access control. TechTarget. https://www.techtarget.com/searchsecurity/definition/access-control
+- https://portswigger.net/web-security/access-control#what-is-access-control
