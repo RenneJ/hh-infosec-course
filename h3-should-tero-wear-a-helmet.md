@@ -44,6 +44,10 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 10. Threat modeling is used to manage risks by informing about possible threats.
 11. Would you recommend a colleague to threat model? If yes: good job! Else: keep working on it!
 
-## [Threat Modeling: Designing for Security. Chapter 1: Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1)
+## [Threat Modeling: Designing for Security. Chapter 1: Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1) (Shostack 2014)
 
-
+- Everyone should threat model.
+- Modeling helps you distinguish the big picture.
+- It helps you find issues in things you haven't built yet.
+- It allows you to anticipate future threats.
+- Effective threat modeling takes time and requires practice.
