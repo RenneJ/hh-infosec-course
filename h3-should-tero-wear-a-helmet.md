@@ -1,6 +1,6 @@
 # Summaries
 
-## [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) (Braiterman et al. 2020)
+## [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) (Braiterman et al., 2020)
 
 Threat modeling = the process of identifying dangers to a system's security or privacy
 
@@ -30,7 +30,7 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 - overfocus
 - try to create a perfect representation, there is no single ideal view, aim to create many representations to light different problems
 
-## [World's Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf) (Shostack 2022)
+## [World's Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf) (Shostack, 2022)
 
 1. Do threat modeling early when it is inexpensive to deal with the problems that might rise.
 2. Threat modeling is asking yourself (or your team) the four key questions: **What are we working on? What can go wrong? What are we going to do about it? Did we do a good enough job?**
@@ -51,3 +51,22 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 - It helps you find issues in things you haven't built yet.
 - It allows you to anticipate future threats.
 - Effective threat modeling takes time and requires practice.
+
+## [Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) (CheatSheets Series Team, 2021)
+
+When creating threat models:
+- document data flows
+- document all the threats to the system
+- document security controls, things that mitigate threats' likelihood and impact
+
+### Terminology
+
+**Threat agent** - baddie/baddies, an actor who is capable of carrying out an attack.
+**Impact** - how much damage is done by an actualised threat.
+**Likelihood** - chance of a threats actualisation.
+**Controls** - actions the defenders take to avoid, detect, counteract, or minimize potential threats.
+**Preventions** - controls the defenders use to completely nullify a threat.
+**Mitigations** - controls the defenders use to reduce the likelihood and/or impact of a threat.
+**Data Flow Diagram** - depiction of your system. It shows all the places where data is stored.
+**Trust Boundary** - part of data flow diagram where data changes its level of trust.
+
