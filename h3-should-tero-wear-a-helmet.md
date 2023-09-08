@@ -69,12 +69,34 @@ When creating threat models:
 
 **Controls** - actions the defenders take to avoid, detect, counteract, or minimize potential threats.
 
-   **Preventions** - controls the defenders use to completely nullify a threat.
+**Preventions** - controls the defenders use to completely nullify a threat.
     
-   **Mitigations** - controls the defenders use to reduce the likelihood and/or impact of a threat.
+**Mitigations** - controls the defenders use to reduce the likelihood and/or impact of a threat.
 
 **Data Flow Diagram** - depiction of your system. It shows all the places where data is stored.
 
-**Trust Boundary** - part of data flow diagram where data changes its level of trust.
+**Trust Boundary** - part of Data Flow Diagram where data changes its level of trust.
 
+Define Business Objectives. You need to know relevant regulations regarding your systems.
 
+Identify application design. This is where drawing Data Flow Diagrams comes in handy. You need to understand how data flows within the system so that you can pinpoint the locations where threats might take place. Read pre-existing documentation. If there is none this is the opportunity to create design documentation. There are many ways to create design documents. The 4+1 model takes into account multiple views: 
+
+- Logical view for designers. Consists of functional requirements.
+- Implementation view for programmers. Consists of software components.
+- Process view for integrators. Consists of non-functional requirements (concurrency and synchronization).
+- Deployment view for deployment managers. Consists of topology (mapping of software to hardware)
+- Use-Case view for all stakeholders including end users.
+
+Define and evaluate assets (in the context of information systems it is probably data). Evaluate them using the CIA model (confidentiality, integrity, availability). Data in rest (i.e. not being transmitted) is often considered to be less vulnerable and more sought after by threat agents than data in transit. Differences in the state of data creates variance in methods used protecting it.
+
+More data flow diagrams! Use proper tools to draw them. Make your diagram in the context of MVC software architecture (model, view, controller).
+
+Define:
+
+- data flows
+- trust boundaries
+- trust levels
+- roles (user's role, admin role etc.)
+- app entry points (interfaces which threat agent can use)
+
+Identify threat agents and ALL possible threats. Map threat agents to entry points. Draw attack vectors and attack trees (I consider attack vectors to be the same as known exploits, refer to OWASP10 for detailed descriptions).
