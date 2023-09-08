@@ -110,3 +110,13 @@ Draw attack vectors and attack trees (I consider attack vectors to be similar to
 Map abuse cases to use cases.
 
 Re-define attack vectors.
+
+### Write your Threat traceability matrix
+
+Define impact and probability for each threat, enumerate risks.
+
+Rank them based on their probability and impact.
+
+### Determine countermeasures and mitigation
+
+Identify the risk owners and come up with the solution to mitigate or eliminate the risk (or do nothing).
