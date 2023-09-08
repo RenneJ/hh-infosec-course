@@ -33,3 +33,10 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 1. Do threat modeling early when it is inexpensive to deal with the problems that might rise.
 2. Threat modeling is asking yourself (or your team) the four key questions: **What are we working on? What can go wrong? What are we going to do about it? Did we do a good enough job?**
 3. Collaboration is important! Use white boards or equivalent drawing tools to figure out **what are we working on?**
+4. Sketching is important to express individual thoughts to others.
+5. Keep a record of what you're doing. It is beneficial to format it to be professionally presented.
+6. Diagrams should be uniform so that everybody understands them.
+7. Remember question 2: **what can go wrong?** Pay attention to answers.
+8. STRIDE Mnemonic: **Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privileges**. Think about these types of attacks when threat modeling.
+9. 
+   
