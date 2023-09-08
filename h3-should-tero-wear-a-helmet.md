@@ -120,3 +120,7 @@ Rank them based on their probability and impact.
 ### Determine countermeasures and mitigation
 
 Identify the risk owners and come up with the solution to mitigate or eliminate the risk (or do nothing).
+
+# Security Hygiene
+
+### Best practices for users [(Irei, 2022)](https://www.techtarget.com/searchsecurity/definition/cyber-hygiene)
