@@ -1,7 +1,9 @@
 # Summary: [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) (Braiterman et al. 2020)
 
-- threat modeling = the process of identifying dangers to a system's security or privacy
-- key questions to ask when threat modeling:
+Threat modeling = the process of identifying dangers to a system's security or privacy
+
+Key questions to ask when threat modeling:
+
 1. What are we working on?
 2. What can go wrong?
 3. What are we going to do about it?
