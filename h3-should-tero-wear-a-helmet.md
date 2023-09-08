@@ -99,4 +99,12 @@ Define:
 - roles (user's role, admin role etc.)
 - app entry points (interfaces which threat agent can use)
 
-Identify threat agents and ALL possible threats. Map threat agents to entry points. Draw attack vectors and attack trees (I consider attack vectors to be the same as known exploits, refer to OWASP10 for detailed descriptions).
+### Identify threat agents and ALL possible threats.
+
+Map threat agents to entry points.
+
+Draw attack vectors and attack trees (I consider attack vectors to be similar to known exploits. But are specific to your system. Refer to OWASP10 for detailed descriptions).
+
+Map abuse cases to use cases.
+
+Re-define attack vectors.
