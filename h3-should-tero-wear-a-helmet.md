@@ -38,5 +38,7 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 6. Diagrams should be uniform so that everybody understands them.
 7. Remember question 2: **what can go wrong?** Pay attention to answers.
 8. STRIDE Mnemonic: **Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privileges**. Think about these types of attacks when threat modeling.
-9. 
+9. Track your work!
+10. Threat modeling is used to manage risks by informing about possible threats.
+11. Would you recommend a colleague to threat model? If yes: good job! Else: keep working on it!
    
