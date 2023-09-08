@@ -123,4 +123,21 @@ Identify the risk owners and come up with the solution to mitigate or eliminate 
 
 # Security Hygiene
 
-### Best practices for users [(Irei, 2022)](https://www.techtarget.com/searchsecurity/definition/cyber-hygiene)
+Ask yourself: what sort of information about myself am I willing to share with strangers or risk losing? Then take appropriate steps to secure whatever it is that you value highly.
+
+For example I don't take special safety precautions to secure my vacation photographs from 2015 but I do take backups of my school assignments.
+
+Below are listed best practices regarding security hygiene. I have put my evaluations in parentheses.
+
+### Best practices for users: [(Irei, 2022)](https://www.techtarget.com/searchsecurity/definition/cyber-hygiene)
+
+- Backups (individual discretion based on the type of information is advised)
+- Education (for everyone)
+- Encryption (not for everyone)
+- Firewalls (not for everyone)
+- Password hygiene (for everyone)
+- Patch management (for everyone)
+- Online discretion (for everyone)
+- Security software (not for everyone)
+
+What do you think? Do you agree with my list? Or do you think there's something wrong or missing?
