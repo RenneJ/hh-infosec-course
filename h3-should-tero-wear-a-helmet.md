@@ -13,7 +13,7 @@ I think the above questions form the essence of threat modeling and should be re
 
 Threat modeling enables you to perceive the risks in the system and helps you identify them so that proper decisions can be made.
 
-#### **Do:**
+## Do:
 
 - systematic approach
 - allow creativity along scientific approach
@@ -21,7 +21,7 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 - use proper tools
 - implement theory into practice
 
-#### **Don't:**
+## Don't:
 
 - think threat modeling is for the few, it is for all
 - admire the problem, you need to find practical solutions
