@@ -69,9 +69,9 @@ When creating threat models:
 
 **Controls** - actions the defenders take to avoid, detect, counteract, or minimize potential threats.
 
-**Preventions** - controls the defenders use to completely nullify a threat.
-
-**Mitigations** - controls the defenders use to reduce the likelihood and/or impact of a threat.
+    **Preventions** - controls the defenders use to completely nullify a threat.
+    
+    **Mitigations** - controls the defenders use to reduce the likelihood and/or impact of a threat.
 
 **Data Flow Diagram** - depiction of your system. It shows all the places where data is stored.
 
