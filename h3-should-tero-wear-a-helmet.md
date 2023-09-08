@@ -31,5 +31,5 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 # Summary: [World's Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf) (Shostack 2022)
 
 1. Do threat modeling early when it is inexpensive to deal with the problems that might rise.
-2. Threat modeling is asking yourself (or your team) the four key questions: 1. What are we working on? 2. What can go wrong? 3. What are we going to do about it? 4. Did we do a good enough job?
+2. Threat modeling is asking yourself (or your team) the four key questions: *What are we working on? What can go wrong? What are we going to do about it? Did we do a good enough job?*
 3. 
