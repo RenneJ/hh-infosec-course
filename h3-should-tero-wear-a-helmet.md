@@ -62,11 +62,19 @@ When creating threat models:
 ### Terminology
 
 **Threat agent** - baddie/baddies, an actor who is capable of carrying out an attack.
+
 **Impact** - how much damage is done by an actualised threat.
+
 **Likelihood** - chance of a threats actualisation.
+
 **Controls** - actions the defenders take to avoid, detect, counteract, or minimize potential threats.
+
 **Preventions** - controls the defenders use to completely nullify a threat.
+
 **Mitigations** - controls the defenders use to reduce the likelihood and/or impact of a threat.
+
 **Data Flow Diagram** - depiction of your system. It shows all the places where data is stored.
+
 **Trust Boundary** - part of data flow diagram where data changes its level of trust.
+
 
