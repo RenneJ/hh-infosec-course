@@ -77,6 +77,8 @@ When creating threat models:
 
 **Trust Boundary** - part of Data Flow Diagram where data changes its level of trust.
 
+### Decompose and Model the System
+
 Define Business Objectives. You need to know relevant regulations regarding your systems.
 
 Identify application design. This is where drawing Data Flow Diagrams comes in handy. You need to understand how data flows within the system so that you can pinpoint the locations where threats might take place. Read pre-existing documentation. If there is none this is the opportunity to create design documentation. There are many ways to create design documents. The 4+1 model takes into account multiple views: 
