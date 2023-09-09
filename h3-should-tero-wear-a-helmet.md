@@ -200,6 +200,15 @@ In figure 1 I illustrate the basic situation of ordering a taxi through the app.
 
 **REPUDIATION** has similar threats to SPOOFING attacks. But I consider them to be a more serious threat. If a threat actor uses repudiation attack against TC systems it would mean that there are serious flaws in the design and/or implementation of the app.
 
-**Information disclosure** represents damages to TC reputation. TC needs to maintain a good reputationm in the eyes of customers and drivers.
+**INFORMATION DISCLOSURE** represents damages to TC reputation. TC needs to maintain a good reputation in the eyes of customers and drivers.
 
-**Denial of service**
+**DENIAL OF SERVICE** is a major concern. Cash flow in TC is very dependant on the time of day, week and month. DoS attack on a busy day could have serious ramifications and TC could be facing sizable losses. Reputation also suffers from Dos attacks.
+
+**ELEVATION OF PRIVILEGES** threaten all assets. It can lead to multiple crimes against TC.
+
+### Risk management
+
+These are represented from highest to lowest risk. These are possible cases and are not necessarily specified to the STRIDE mnemonic. Many cases employ several types attacks (spoofing, tampering etc.).
+
+1. Database eradication (partial or complete). The chance of this happening is not zero. Therefore this is the highest risk as the impact would quite possibly mean the end for the company. **The cost is equal to the worth of the company.**
+2. Denial of service. Due to the nature of the business model this is a very considerable risk. Customers (who use the app to interact with the system) should not be able to request more than a specific amount of times within a time frame. Customer should not be able to order ride while another one is being processed. **5% chance * 50 000€ (an estimation of a good night's revenue) = 2 500€**
