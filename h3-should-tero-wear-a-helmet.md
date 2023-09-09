@@ -162,6 +162,10 @@ TC's assets that need to be secured are:
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02191733-043f-46de-8043-a62dc00db772)
 
-> Figure 1. Basic use-case DFD
+> Figure 1. Basic taxi order DFD
 
 In figure 1 I illustrate the basic situation of ordering a taxi through the app. Worth noting here is the two trust boundaries. The inner trust boundary represents the IaaS database infrastructure. In TC the database infrastructure is acquired through a cloud service. That means that the hardware side of data storage is handled by an external actor. The management of data transfer and upkeep is done by TC IT department.
+
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e100d0ff-4724-4e0c-a227-1580c4a914fe)
+
+> Figure 2. Current network diagram.
