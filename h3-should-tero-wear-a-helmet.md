@@ -159,3 +159,6 @@ TC's assets that need to be secured are:
     - employee data
     - contractor/driver data
     - business data (sales and marketing data, investment plans etc.)
+
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02191733-043f-46de-8043-a62dc00db772)
+
