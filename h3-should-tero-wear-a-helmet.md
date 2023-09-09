@@ -216,7 +216,7 @@ These are represented from highest to lowest risk. These are possible cases and 
 
 ## What are we going to do about it?
 
-1. Data tampering.
+1. Data tampering. Limit entry points and transfer attacks. Collect attack data for future incidents.
     - rework the network setup
     - add a honeypot to fool threat actors
     - separate critical structures with firewalls
@@ -234,3 +234,7 @@ These are represented from highest to lowest risk. These are possible cases and 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/8ee7ca2e-645e-4bdf-aaf1-f5dec472be00)
 
 > Figure 4. Improved security to app logic.
+
+## Did we do a good job?
+
+Start penetration testing before the network updgrades, continue them during implementation and after completion. Report findings, enumerate as much as possible to gain verifiable data for future. When the security of system gets better and more sophisticated so will the potential threts. After these initial upgrades we shall start going through targeted attacks and examine the relevance of more obscure attack methods (listed in OWASP TOP 10) against our systems.
