@@ -230,3 +230,7 @@ These are represented from highest to lowest risk. These are possible cases and 
 2. Denial of service. Revisit the app source code methodically. Fix improper structures and implement logical verifications for processes where app user interacts with dispatch server.
 
 3. Fraudulent orders. Add MFA (multi-factor authentication) for orders like biometric data (fingerprint). Customers also need to verify their payment capabilities. A nominal fee is charged (and returned) every time a new card is added or changed to user profile.
+
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/8ee7ca2e-645e-4bdf-aaf1-f5dec472be00)
+
+> Figure 4. Improved security to app logic.
