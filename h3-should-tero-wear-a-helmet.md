@@ -200,7 +200,7 @@ In figure 1 I illustrate the basic situation of ordering a taxi through the app.
 
 **REPUDIATION** has similar threats to SPOOFING attacks. But I consider them to be a more serious threat. If a threat actor uses repudiation attack against TC systems it would mean that there are serious flaws in the design and/or implementation of the app.
 
-**INFORMATION DISCLOSURE** represents damages to TC reputation. TC needs to maintain a good reputation in the eyes of customers and drivers.
+**INFORMATION DISCLOSURE** represents damages to TC reputation. TC needs to maintain a good reputation in the eyes of customers and drivers. Information disclosure can be used to leak passwords and information of TC systems to other threat actors aswell.
 
 **DENIAL OF SERVICE** is a major concern. Cash flow in TC is very dependant on the time of day, week and month. DoS attack on a busy day could have serious ramifications and TC could be facing sizable losses. Reputation also suffers from Dos attacks.
 
@@ -210,5 +210,6 @@ In figure 1 I illustrate the basic situation of ordering a taxi through the app.
 
 These are represented from highest to lowest risk. These are possible cases and are not necessarily specified to the STRIDE mnemonic. Many cases employ several types attacks (spoofing, tampering etc.).
 
-1. Database eradication (partial or complete). The chance of this happening is not zero. Therefore this is the highest risk as the impact would quite possibly mean the end for the company. **The cost is equal to the worth of the company.**
-2. Denial of service. Due to the nature of the business model this is a very considerable risk. Customers (who use the app to interact with the system) should not be able to request more than a specific amount of times within a time frame. Customer should not be able to order ride while another one is being processed. **5% chance * 50 000€ (an estimation of a good night's revenue) = 2 500€**
+1. Database eradication (partial or complete). The chance of this happening is not zero. Therefore this is the highest risk as the impact would quite possibly mean the end for the company. A threat actor would have to use many kinds of attacks to achieve this. **The cost is equal to the worth of the company.**
+2. Denial of service. Due to the nature of the business model this is a very considerable risk. Customers (who use the app to interact with the system) should not be able to request more than a specific amount of times within a time frame. Customer should not be able to order ride while another one is being processed. **5% chance * 100 000€ (an estimation of a good night's revenue) = 5 000€**
+3. Fraudulent orders. If done by repudiation and abusing/circumventing TC app payment then **3% chance * 30€ (avg. cost of ride) = 0.9€ per occurrence**. If done via spoofing using a stolen credit card or phone with access to TC customers app then **5% chance * 30€ * 50% (chance the customer notices in time to contact TC or credit company) = 0.75€ per occurrence**
