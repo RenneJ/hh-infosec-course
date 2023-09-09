@@ -188,4 +188,18 @@ In figure 1 I illustrate the basic situation of ordering a taxi through the app.
 2. Contractor/driver data
     - Similar risks as in customer data. If contractor data is jeopardized the impact to reputation will affect the contractor's willingness to continue partnership.
     - If data regarding the contractor's fees leak then it could be exploited by a competitor.
-3. 
+3. Employee data and business data.
+
+## What can go wrong?
+
+### STRIDE
+
+**SPOOFING** is a probable event. If customer loses their phone it could be used to fraudulently order a ride. The business ramifications of this are low. A stolen phone likely goes through a hard reset as the phone itself is probably the end goal for a thief. Even if the fraudulent usage of TC services takes place there's a good chance that no hit comes to business revenue. Spoofing in fraudulent credit card purchases would be the only case of possible monetary losses for TC in the form of chargebacks by credit companies. That is an unlikely event and also out of TC's reach.
+
+**TAMPERING** any data is a serious offense. TC's business continuity greatly relies on taxi arriving to the right location swiftly. Tampering the processes via malware or directly tampering customer and/or driver data would be detrimental to TC. Tampering organizational privileges is also a great threat.
+
+**REPUDIATION** has similar threats to SPOOFING attacks. But I consider them to be a more serious threat. If a threat actor uses repudiation attack against TC systems it would mean that there are serious flaws in the design and/or implementation of the app.
+
+**Information disclosure** represents damages to TC reputation. TC needs to maintain a good reputationm in the eyes of customers and drivers.
+
+**Denial of service**
