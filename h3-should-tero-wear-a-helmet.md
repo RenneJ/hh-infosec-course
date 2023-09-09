@@ -91,7 +91,7 @@ Identify application design. This is where drawing Data Flow Diagrams comes in h
 
 Define and evaluate assets (in the context of information systems it is probably data). Evaluate them using the CIA model (confidentiality, integrity, availability). Data in rest (i.e. not being transmitted) is often considered to be less vulnerable and more sought after by threat agents than data in transit. Differences in the state of data creates variance in methods used protecting it.
 
-More data flow diagrams! Use proper tools to draw them. Make your diagram in the context of MVC software architecture (model, view, controller).
+Use proper tools to draw data flow diagrams. Make your diagram in the context of MVC software architecture (model, view, controller).
 
 Define:
 
@@ -131,7 +131,7 @@ Below are listed best practices regarding security hygiene. I have put my evalua
 
 ### Best practices for users: [(Irei, 2022)](https://www.techtarget.com/searchsecurity/definition/cyber-hygiene)
 
-- Backups (individual discretion based on the type of information is advised)
+- Backups (individual discretion based on the information is advised)
 - Education (for everyone)
 - Encryption (not for everyone)
 - Firewalls (not for everyone)
@@ -141,3 +141,9 @@ Below are listed best practices regarding security hygiene. I have put my evalua
 - Security software (not for everyone)
 
 What do you think? Do you agree with my list? Or do you think there's something wrong or missing?
+
+# Make-believe boogeyman - a threat model for a company
+
+### The Taxi Company
+
+The Taxi Company (referred to as TC) is a traditional provider of taxi services. It forwards customers' requests to independent contractors - taxi drivers. TC operates in Finland. Customers can order a taxi via TC app or by calling the centre. The app can also be used to pay the fare.
