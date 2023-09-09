@@ -131,10 +131,10 @@ Below are listed best practices regarding security hygiene. I have put my evalua
 
 ### Best practices for users: [(Irei, 2022)](https://www.techtarget.com/searchsecurity/definition/cyber-hygiene)
 
-- Backups (individual discretion based on the information is advised)
+- Backups (individual discretion based on the information is advised for everyone)
 - Education (for everyone)
 - Encryption (not for everyone)
-- Firewalls (not for everyone)
+- Firewalls (for everyone, but understanding them needs education)
 - Password hygiene (for everyone)
 - Patch management (for everyone)
 - Online discretion (for everyone)
@@ -148,26 +148,33 @@ What do you think? Do you agree with my list? Or do you think there's something 
 
 The Taxi Company (referred to as TC) is a traditional provider of taxi services that employs roughly 30 persons. It forwards customers' requests to independent contractors - taxi drivers. TC operates in Finland. Customers can order a taxi via TC app or by calling the centre. The app can also be used to pay the fare.
 
+
 Even though the independent contractors (drivers) are the source of revenue in this business model I don't refer to them as customers. The word customer is being used to refer to the person using the service to order a taxi.
+
+Business plan in nutshell:
+- Customer orders a taxi to their location.
+- Ride takes place.
+- Payment either via app or cash/card directly to driver.
+- A portion of the payment goes to TC.
 
 ## What are we working on?
 
 ### Assets
 
 TC's assets that need to be secured are:
-- the company premises: the call centre and office
-- database, in cloud: IaaS, infrastructure as a service
-    - customer data (names, phone numbers, addresses, credit/debit card numbers etc.)
-    - employee data
-    - contractor/driver data
-    - business data (sales and marketing data, investment plans etc.)
+- The company premises: the call centre and office
+- Database, in cloud: IaaS, infrastructure as a service
+    - Customer data (names, phone numbers, addresses, credit/debit card numbers etc.)
+    - Employee data
+    - Contractor/driver data
+    - Business data (sales and marketing data, investment plans etc.)
  
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02191733-043f-46de-8043-a62dc00db772)
 
 > Figure 1. Basic taxi order DFD
 
-In figure 1 I illustrate the basic situation of ordering a taxi through the app. Worth noting here is the two trust boundaries. The inner trust boundary represents the IaaS database infrastructure. In TC the database infrastructure is acquired through a cloud service. That means that the hardware side of data storage is handled by an external actor. The management of data transfer and upkeep is done by TC IT department.
+In figure 1 I illustrate the basic situation of ordering a taxi through the app. Worth noting here are the two trust boundaries. The inner trust boundary represents the IaaS infrastructure for the database. In TC the database infrastructure is acquired through a cloud service. That means that the hardware side of data storage is handled by an external actor. The management of data transfer and upkeep is done by TC IT department.
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e100d0ff-4724-4e0c-a227-1580c4a914fe)
 
@@ -175,7 +182,10 @@ In figure 1 I illustrate the basic situation of ordering a taxi through the app.
 
 ### Prioritisation of assets
 
-1. customer data
-    - EU wide GDPR sets high standards for handling customer data
-    - damages to customer data can have catastrophic effects
-2. 
+1. Customer data
+    - EU wide GDPR sets high standards for handling customer data, risk of facing legal consequences (fines or other regulatory actions)
+    - Damages to customer data can have catastrophic effects to business continuity (not only reputation but also increased costs in maintaining a functioning database)
+2. Contractor/driver data
+    - Similar risks as in customer data. If contractor data is jeopardized the impact to reputation will affect the contractor's willingness to continue partnership.
+    - If data regarding the contractor's fees leak then it could be exploited by a competitor.
+3. 
