@@ -176,7 +176,7 @@ TC's assets that need to be secured are:
 
 In figure 1 I illustrate the basic situation of ordering a taxi through the app. Worth noting here are the two trust boundaries. The inner trust boundary represents the IaaS infrastructure for the database. In TC the database infrastructure is acquired through a cloud service. That means that the hardware side of data storage is handled by an external actor. The management of data transfer and upkeep is done by TC IT department.
 
-### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e100d0ff-4724-4e0c-a227-1580c4a914fe)
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/9b09e9d8-3397-45c6-b9fa-f2e433eef7c1)
 
 > Figure 2. Current office network diagram.
 
