@@ -222,3 +222,7 @@ These are represented from highest to lowest risk. These are possible cases and 
     - separate critical structures with firewalls
     - revisit router and switch passwords and implement an interval for their periodic change
     - educate employees of strong passwords and require them to be changed regularly
+
+### ![h3_network_fixed](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d81898e2-b35b-461a-8b55-706b090372f9)
+
+> Figure 3. Diagram showing the new and improved, more secure network infrastructure.
