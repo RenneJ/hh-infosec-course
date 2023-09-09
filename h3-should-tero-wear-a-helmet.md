@@ -164,4 +164,4 @@ TC's assets that need to be secured are:
 
 > Figure 1. Basic use-case DFD
 
-In figure 1 I try to illustrate the basic situation of ordering a taxi through the app. Worth noting here is the two trust boundaries. The inner trust boundary represents the IaaS database infrastructure. In TC the database infrastructure is acquired through a cloud service. That means that the hardware side of data storage is handled by an external actor. The softwares to manage data transfer and upkeep is done by TC IT department.
+In figure 1 I illustrate the basic situation of ordering a taxi through the app. Worth noting here is the two trust boundaries. The inner trust boundary represents the IaaS database infrastructure. In TC the database infrastructure is acquired through a cloud service. That means that the hardware side of data storage is handled by an external actor. The management of data transfer and upkeep is done by TC IT department.
