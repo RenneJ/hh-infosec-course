@@ -155,7 +155,7 @@ The Taxi Company (referred to as TC) is a traditional provider of taxi services 
 TC's assets that need to be secured are:
 - the company premises: the call centre and office
 - database, in cloud: IaaS, infrastructure as a service
-        - customer data (names, phone numbers, addresses, credit/debit card numbers etc.)
-        - employee data
-        - contractor/driver data
-        - business data (sales and marketing data, investment plans etc.)
+- customer data (names, phone numbers, addresses, credit/debit card numbers etc.)
+    - employee data
+    - contractor/driver data
+    - business data (sales and marketing data, investment plans etc.)
