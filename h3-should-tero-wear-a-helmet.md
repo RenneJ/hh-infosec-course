@@ -162,3 +162,5 @@ TC's assets that need to be secured are:
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02191733-043f-46de-8043-a62dc00db772)
 
+> Figure 1. Basic use-case DFD
+
