@@ -226,3 +226,7 @@ These are represented from highest to lowest risk. These are possible cases and 
 ### ![h3_network_fixed](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d81898e2-b35b-461a-8b55-706b090372f9)
 
 > Figure 3. Diagram showing the new and improved, more secure network infrastructure.
+
+2. Denial of service. Revisit the app source code methodically. Fix improper structures and implement logical verifications for processes where app user interacts with dispatch server.
+
+3. Fraudulent orders. Add MFA (multi-factor authentication) for orders like biometric data (fingerprint). Customers also need to verify their payment capabilities. A nominal fee is charged (and returned) every time a new card is added or changed to user profile.
