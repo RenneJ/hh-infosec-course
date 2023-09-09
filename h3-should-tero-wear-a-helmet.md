@@ -144,13 +144,15 @@ What do you think? Do you agree with my list? Or do you think there's something 
 
 # Make-believe boogeyman - a threat model for a company
 
-### The Taxi Company
+## The Taxi Company
 
 The Taxi Company (referred to as TC) is a traditional provider of taxi services that employs roughly 30 persons. It forwards customers' requests to independent contractors - taxi drivers. TC operates in Finland. Customers can order a taxi via TC app or by calling the centre. The app can also be used to pay the fare.
 
-### What are we working on?
+Even though the independent contractors (drivers) are the source of revenue in this business model I don't refer to them as customers. The word customer is being used to refer to the person using the service to order a taxi.
 
-#### Assets
+## What are we working on?
+
+### Assets
 
 TC's assets that need to be secured are:
 - the company premises: the call centre and office
@@ -159,6 +161,7 @@ TC's assets that need to be secured are:
     - employee data
     - contractor/driver data
     - business data (sales and marketing data, investment plans etc.)
+ 
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02191733-043f-46de-8043-a62dc00db772)
 
@@ -168,4 +171,11 @@ In figure 1 I illustrate the basic situation of ordering a taxi through the app.
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e100d0ff-4724-4e0c-a227-1580c4a914fe)
 
-> Figure 2. Current network diagram.
+> Figure 2. Current office network diagram.
+
+### Prioritisation of assets
+
+1. customer data
+    - EU wide GDPR sets high standards for handling customer data
+    - damages to customer data can have catastrophic effects
+2. 
