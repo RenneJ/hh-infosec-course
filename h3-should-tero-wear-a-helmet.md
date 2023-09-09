@@ -146,4 +146,16 @@ What do you think? Do you agree with my list? Or do you think there's something 
 
 ### The Taxi Company
 
-The Taxi Company (referred to as TC) is a traditional provider of taxi services. It forwards customers' requests to independent contractors - taxi drivers. TC operates in Finland. Customers can order a taxi via TC app or by calling the centre. The app can also be used to pay the fare.
+The Taxi Company (referred to as TC) is a traditional provider of taxi services that employs roughly 30 persons. It forwards customers' requests to independent contractors - taxi drivers. TC operates in Finland. Customers can order a taxi via TC app or by calling the centre. The app can also be used to pay the fare.
+
+### What are we working on?
+
+#### Assets
+
+TC's assets that need to be secured are:
+- the company premises: the call centre and office
+- database, in cloud: IaaS, infrastructure as a service
+        - customer data (names, phone numbers, addresses, credit/debit card numbers etc.)
+        - employee data
+        - contractor/driver data
+        - business data (sales and marketing data, investment plans etc.)
