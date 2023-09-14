@@ -4,6 +4,9 @@
 
 ### 1.1 Terminology
 
+- Sender and Receiver:
+  - message is sent and it is important that it's sent securely.
+
 ### 1.2 Steganography
 
 ### 1.3 Substitution ciphers and transposition ciphers
