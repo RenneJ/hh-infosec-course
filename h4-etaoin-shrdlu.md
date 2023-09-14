@@ -6,6 +6,14 @@
 
 - Sender and Receiver:
   - message is sent and it is important that it's sent securely.
+ 
+- Messages and Encryption
+  - message is called plaintext or cleartext (symbol *M* or *P*)
+  - hiding the messages information is called encryption
+  - encrypted text is called ciphertext
+  - cryptography = how to keep messages secure
+  - cryptanlysis = how to break ciphertext
+  - cryptology = field of study (maths) that covers cryptography and cryptanalysis
 
 ### 1.2 Steganography
 
