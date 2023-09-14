@@ -30,6 +30,15 @@
     - key is used by encrypting and decrypting functions
     - this way the algorithm can be published and peer reviewed
 
+- Symmetric Algorithms
+  - encrypting key and decrypting are the same or one can be derived form the other
+  - also called secret-key algorithms, single-key algorithms, or one-key algorithms
+  - sender and receiver need to agree on a key before communications
+ 
+- Public-key Algorithms
+  - also called asymmetric algorithms
+  - encrypting key and decrypting are different
+
 ### 1.2 Steganography
 
 ### 1.3 Substitution ciphers and transposition ciphers
