@@ -61,11 +61,19 @@
   - information deduction, partial infomration about plaintext or key
 - most cryptosystems are breakable in a ciphertext-only attack
   - the key can be brute forced
-- 
+  - only one-time pads are unconditionally secure
+- cryptography is more concerned making cryptosystems computationally secure or strong
+  - it cannot be broken using available resources
 
 ### 1.2 Steganography
 
+Steganography is hiding messages inside other messages (e.g. invisible ink writing in a letter, slight differences in handwriting etc.)
+
+Recently the medium for steganographic messages has been images. Changing choice bits of the image won't impact the look of the image noticably but the receiver will be able to read the hidden message.
+
 ### 1.3 Substitution ciphers and transposition ciphers
+
+
 
 ### 1.4 Simple XOR
 
