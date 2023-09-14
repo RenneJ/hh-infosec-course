@@ -15,6 +15,21 @@
   - cryptanlysis = how to break ciphertext
   - cryptology = field of study (maths) that covers cryptography and cryptanalysis
 
+- Authentication, Integrity, and Nonrepudiation
+  - Authentication: the receiver knows that the sender is who they say they are
+  - Integrity: message stays the same all the way to the receiver
+  - Nonrepudiation: the sender must not be able to claim that they didn't send the message
+ 
+- Algorithms and Keys
+  - cryptographic algorithm = mathematic function for encrypting and decrypting
+  - if algorithm's security depends on its secrecy it is called a restricted algorithm
+    - inadequate by modern standards
+  - modern algorithms use a key (symbol for key *K*)
+    - key is a number
+    - the range of numbers where the key is drawn is called the keyspace
+    - key is used by encrypting and decrypting functions
+    - this way the algorithm can be published and peer reviewed
+
 ### 1.2 Steganography
 
 ### 1.3 Substitution ciphers and transposition ciphers
