@@ -42,16 +42,26 @@
   - decrypting key is often called private key
 
 **Cryptanalysis**
-  - the science of recovering the plaintext without the key or recovering the key itself
-  - if the key is recovered by a threat actor without cryptanalysis it is called a compromise
-  - there are 4 main categories of cryptanalysis attack:
-    - Ciphertext-only attack, access only to ciphertext
-    - Known-plaintext attack, access to ciphertext and plaintext
-    - Chosen-plaintext attack, same as above but also access to dictate the plaintext
-    - Adaptive-chosen-plaintext attack, same as above but also get feedback of previous encryption
-  - "Good cryptographers rely on peer review to separate the good algorithms from the bad."
+- the science of recovering the plaintext without the key or recovering the key itself
+- if the key is recovered by a threat actor without cryptanalysis it is called a compromise
+- there are 4 main categories of cryptanalysis attack:
+  - Ciphertext-only attack, access only to ciphertext
+  - Known-plaintext attack, access to ciphertext and plaintext
+  - Chosen-plaintext attack, same as above but also access to dictate the plaintext
+  - Adaptive-chosen-plaintext attack, same as above but also get feedback of previous encryption
+- "Good cryptographers rely on peer review to separate the good algorithms from the bad."
 
 **Security of Algorithms**
+- algorithms have varying levels of security
+  - sometimes "good enough" works fine, depending on the message
+- categories of breaking an algorithm
+  - total break, cryptanalyst finds the key
+  - global deduction, cryptanalyst finds an alternate working algorithm
+  - instance (or local) deduction, cryptanalyst finds the plaintext
+  - information deduction, partial infomration about plaintext or key
+- most cryptosystems are breakable in a ciphertext-only attack
+  - the key can be brute forced
+- 
 
 ### 1.2 Steganography
 
