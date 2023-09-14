@@ -8,9 +8,9 @@
   - message is sent and it is important that it's sent securely.
  
 - Messages and Encryption
-  - message is called plaintext or cleartext (symbol *M* or *P*)
-  - hiding the messages information is called encryption
-  - encrypted text is called ciphertext
+  - message is called plaintext or cleartext (symbol for message *M*, plaintext *P*)
+  - hiding the message's information is called encryption (symbol for encryption *E*)
+  - encrypted text is called ciphertext (symbol for ciphertext *C*)
   - cryptography = how to keep messages secure
   - cryptanlysis = how to break ciphertext
   - cryptology = field of study (maths) that covers cryptography and cryptanalysis
