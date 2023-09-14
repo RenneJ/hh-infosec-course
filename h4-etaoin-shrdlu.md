@@ -4,10 +4,10 @@
 
 ### 1.1 Terminology
 
-- Sender and Receiver:
+Sender and Receiver:
   - message is sent and it is important that it's sent securely.
  
-- Messages and Encryption
+Messages and Encryption
   - message is called plaintext or cleartext (symbol for message *M*, plaintext *P*)
   - hiding the message's information is called encryption (symbol for encryption *E*)
   - encrypted text is called ciphertext (symbol for ciphertext *C*)
@@ -37,7 +37,21 @@
  
 - Public-key Algorithms
   - also called asymmetric algorithms
-  - encrypting key and decrypting are different
+  - encrypting key and decrypting are different and one cannot feasibly be derived from the other
+  - encrypting key can be published often called public key
+  - decrypting key is often called private key
+
+- Cryptanalysis
+  - the science of recovering the plaintext without the key or recovering the key itself
+  - if the key is recovered by a threat actor without cryptanalysis it is called a compromise
+  - there are 4 main categories of cryptanalysis attack:
+    - Ciphertext-only attack, access only to ciphertext
+    - Known-plaintext attack, access to ciphertext and plaintext
+    - Chosen-plaintext attack, same as above but also access to dictate the plaintext
+    - Adaptive-chosen-plaintext attack, same as above but also get feedback of previous encryption
+  - "Good cryptographers rely on peer review to separate the good algorithms from the bad."
+
+- Security of Algorithms
 
 ### 1.2 Steganography
 
