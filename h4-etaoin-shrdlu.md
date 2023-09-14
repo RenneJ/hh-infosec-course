@@ -4,10 +4,10 @@
 
 ### 1.1 Terminology
 
-Sender and Receiver:
+**Sender and Receiver**
   - message is sent and it is important that it's sent securely.
  
-Messages and Encryption
+**Messages and Encryption**
   - message is called plaintext or cleartext (symbol for message *M*, plaintext *P*)
   - hiding the message's information is called encryption (symbol for encryption *E*)
   - encrypted text is called ciphertext (symbol for ciphertext *C*)
@@ -15,12 +15,12 @@ Messages and Encryption
   - cryptanlysis = how to break ciphertext
   - cryptology = field of study (maths) that covers cryptography and cryptanalysis
 
-- Authentication, Integrity, and Nonrepudiation
+**Authentication, Integrity, and Nonrepudiation**
   - Authentication: the receiver knows that the sender is who they say they are
   - Integrity: message stays the same all the way to the receiver
   - Nonrepudiation: the sender must not be able to claim that they didn't send the message
  
-- Algorithms and Keys
+**Algorithms and Keys**
   - cryptographic algorithm = mathematic function for encrypting and decrypting
   - if algorithm's security depends on its secrecy it is called a restricted algorithm
     - inadequate by modern standards
@@ -30,18 +30,18 @@ Messages and Encryption
     - key is used by encrypting and decrypting functions
     - this way the algorithm can be published and peer reviewed
 
-- Symmetric Algorithms
+**Symmetric Algorithms**
   - encrypting key and decrypting are the same or one can be derived form the other
   - also called secret-key algorithms, single-key algorithms, or one-key algorithms
   - sender and receiver need to agree on a key before communications
  
-- Public-key Algorithms
+**Public-key Algorithms**
   - also called asymmetric algorithms
   - encrypting key and decrypting are different and one cannot feasibly be derived from the other
   - encrypting key can be published often called public key
   - decrypting key is often called private key
 
-- Cryptanalysis
+**Cryptanalysis**
   - the science of recovering the plaintext without the key or recovering the key itself
   - if the key is recovered by a threat actor without cryptanalysis it is called a compromise
   - there are 4 main categories of cryptanalysis attack:
@@ -51,7 +51,7 @@ Messages and Encryption
     - Adaptive-chosen-plaintext attack, same as above but also get feedback of previous encryption
   - "Good cryptographers rely on peer review to separate the good algorithms from the bad."
 
-- Security of Algorithms
+**Security of Algorithms**
 
 ### 1.2 Steganography
 
