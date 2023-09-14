@@ -73,9 +73,15 @@ Recently the medium for steganographic messages has been images. Changing choice
 
 ### 1.3 Substitution ciphers and transposition ciphers
 
+Ye olde algorithms substituted a character and/or transposed it in a message.
 
+Simple substitution ciphers can be easily broken (especially by a computer). It doesn't hide the frequency of the letters.
+
+Transposition ciphers shuffle the letters of the plaintext.
 
 ### 1.4 Simple XOR
+
+
 
 ### 1.5 One-time pads
 
