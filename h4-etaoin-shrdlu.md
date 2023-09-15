@@ -87,22 +87,38 @@ XOR is the exclusive-or operator.
 
 XOR is a trivial encryption as it can easily be decrypted without the knowledge of the key. XORing the same value twice returns the original plaintext.
 
-My quick example and let's remember that EK(P)=C:
+My quick example and let's remember that *EK(P)=C*:
 
-P = 00101011
+*P* = 00101011
 
-K = 11100011
+*K* = 11100011
 
-E = XOR
+*E* = XOR
 
-C = 00110111
+*C* = 00110111
 
 ### 1.5 One-time pads
+
+The perfect encryption - one-time pad. For a one-time pad:
+- the key needs to be securely delivered between the sender and recipient
+- the key nor any of it's components must not be used again
+- the key must be randomly generated
+
+Following these requirements you can establish impenetrable communications.
+
+Problems:
+- the key needs to be the same size as plaintext, so long messages are not necessarily feasible
+- randomly generating numbers (or anything) is not as easy as it sounds
+
+What makes one-time pads so great:
+
+> Since every plaintext message is equally possible, there is no way for the cryptanalyst to determine which plaintext message is the correct one.
 
 ### 1.6 Computer algorithms
 
 ### 1.7 Large numbers
 
-### Source
+### Sources
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
+Litterio, F. 2008. Why Are One-Time Pads Perfectly Secure?. https://securityaware.wordpress.com/2008/07/15/art/. Read: 2023/09/15
