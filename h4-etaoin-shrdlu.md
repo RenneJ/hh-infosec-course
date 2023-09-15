@@ -5,41 +5,41 @@
 ### 1.1 Terminology
 
 **Sender and Receiver**
-  - message is sent and it is important that it's sent securely.
+- message is sent and it is important that it's sent securely.
  
 **Messages and Encryption**
-  - message is called plaintext or cleartext (symbol for message *M*, plaintext *P*)
-  - hiding the message's information is called encryption (symbol for encryption *E*)
-  - encrypted text is called ciphertext (symbol for ciphertext *C*)
-  - cryptography = how to keep messages secure
-  - cryptanlysis = how to break ciphertext
-  - cryptology = field of study (maths) that covers cryptography and cryptanalysis
+- message is called plaintext or cleartext (symbol for message *M*, plaintext *P*)
+- hiding the message's information is called encryption (symbol for encryption *E*)
+- encrypted text is called ciphertext (symbol for ciphertext *C*)
+- cryptography = how to keep messages secure
+- cryptanlysis = how to break ciphertext
+- cryptology = field of study (maths) that covers cryptography and cryptanalysis
 
 **Authentication, Integrity, and Nonrepudiation**
-  - Authentication: the receiver knows that the sender is who they say they are
-  - Integrity: message stays the same all the way to the receiver
-  - Nonrepudiation: the sender must not be able to claim that they didn't send the message
+- Authentication: the receiver knows that the sender is who they say they are
+- Integrity: message stays the same all the way to the receiver
+- Nonrepudiation: the sender must not be able to claim that they didn't send the message
  
 **Algorithms and Keys**
-  - cryptographic algorithm = mathematic function for encrypting and decrypting
-  - if algorithm's security depends on its secrecy it is called a restricted algorithm
-    - inadequate by modern standards
-  - modern algorithms use a key (symbol for key *K*)
-    - key is a number
-    - the range of numbers where the key is drawn is called the keyspace
-    - key is used by encrypting and decrypting functions
-    - this way the algorithm can be published and peer reviewed
+- cryptographic algorithm = mathematic function for encrypting and decrypting
+- if algorithm's security depends on its secrecy it is called a restricted algorithm
+  - inadequate by modern standards
+- modern algorithms use a key (symbol for key *K*)
+  - key is a number
+  - the range of numbers where the key is drawn is called the keyspace
+  - key is used by encrypting and decrypting functions
+  - this way the algorithm can be published and peer reviewed
 
 **Symmetric Algorithms**
-  - encrypting key and decrypting are the same or one can be derived form the other
-  - also called secret-key algorithms, single-key algorithms, or one-key algorithms
-  - sender and receiver need to agree on a key before communications
+- encrypting key and decrypting are the same or one can be derived from the other
+- also called secret-key algorithms, single-key algorithms, or one-key algorithms
+- sender and receiver need to agree on a key before communications
  
 **Public-key Algorithms**
-  - also called asymmetric algorithms
-  - encrypting key and decrypting are different and one cannot feasibly be derived from the other
-  - encrypting key can be published often called public key
-  - decrypting key is often called private key
+- also called asymmetric algorithms
+- encrypting key and decrypting are different and one cannot feasibly be derived from the other
+- encrypting key can be published and is often called public key
+- decrypting key is often called private key
 
 **Cryptanalysis**
 - the science of recovering the plaintext without the key or recovering the key itself
@@ -81,7 +81,21 @@ Transposition ciphers shuffle the letters of the plaintext.
 
 ### 1.4 Simple XOR
 
+XOR is the exclusive-or operator. 
+- symbol ⊕ in mathematics
+- symbol ^ in C (and many other programming languages e.g. python, java)
 
+XOR is a trivial encryption as it can easily be decrypted without the knowledge of the key. XORing the same value twice returns the original plaintext.
+
+My quick example and let's remember that EK(P)=C:
+
+P = 00101011
+
+K = 11100011
+
+E = XOR
+
+C = 00110111
 
 ### 1.5 One-time pads
 
