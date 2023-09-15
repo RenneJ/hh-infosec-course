@@ -151,26 +151,30 @@ If you wish to use KeePassXC on different platforms and devices you can upload t
 
 # Decrypting substitution cipher
 
+What's given:
+- sender's identity is known
+- ciphertext is substitution cipher
+
 Initial assumptions:
 - message is in English (ETAOIN SHRDLU mnemonic is valid)
-- the last substring (omitting whitespace) suggests that it is decrypting an URL using http-protocol
-- the domain extension is .com
+- the last substring (when substring separator is whitespace) suggests that it is an URL
+- the domain extension is .com (.org is unlikely because the characters O and G would not be substituted in the message)
 
-> *C* = HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG
+> *C* = (HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG)
 
 > *D* = frequency analysis({'H': 11, 'D': 4, 'M': 10, 'B': 10, 'T': 10, 'K': 6, 'W': 10, 'U': 6, 'Y': 8, 'I': 16, 'A': 8, 'R': 2, 'S': 3, 'O': 6, 'J': 4, 'Q': 1, 'N': 4, 'L': 3, 'G': 2, 'P': 3, 'E': 1, 'C': 1})
 
 First run using initial assumptions yields the following:
 
-> *P* = THMT'B TT. KOU'YI AOR OSSTCTMJJK M COQINYIMLIY! MB KOU BII, BTMPJI BUNBTTTUTTOA CTPHIYB CMA NI NYOLIA RTTH SYIEUIACK MAMJKBTB. BII KOU MT HTTP://TIYOLMYCTAIA.COM
+> *P* = (THMT'B TT. KOU'YI AOR OSSTCTMJJK M COQINYIMLIY! MB KOU BII, BTMPJI BUNBTTTUTTOA CTPHIYB CMA NI NYOLIA RTTH SYIEUIACK MAMJKBTB. BII KOU MT HTTP://TIYOLMYCTAIA.COM)
 
-Using the mnemonic ETAOIN (where T has already been mapped to H) one can substitute the most frequent letter I with E and third most frequent letter M with A (10 occurrences M, B and T; W has been mapped in the initial assumption). The result: 
+Using the mnemonic ETAOIN (where T has already been mapped to *C*(H) one can substitute the most frequent letter *C*(I) with E and third most frequent letter *C*(M) with A (10 occurrences *C*(M), *C*(B) and *C*(T); *C*(W) has been mapped in the initial assumption). The result: 
 
 > *P* = THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
 
-From here a person who knows English and knows the sender can substitute easily and very likely correctly. E.g. first word is THAT'S and the URL at the end is TEROKARVINEN.COM.
+From here a person who knows English and knows who the sender is can substitute remaining charcters easily and very likely correctly. E.g. first word is THAT'S and the URL at the end is TEROKARVINEN.COM.
 
-I wrote short program to help me with the decrypting. It's provided in the main branch ([h4_code.py](https://github.com/RenneJ/hh-infosec-course/blob/main/h4_code.py))
+I wrote a short program to help me with the decrypting. It's provided in the main branch of this repo ([h4_code.py](https://github.com/RenneJ/hh-infosec-course/blob/main/h4_code.py))
 
 # Sources
 
