@@ -149,6 +149,17 @@ All the data encrypted by KeePassXC is stored locally. When creating a KeePass d
 
 If you wish to use KeePassXC on different platforms and devices you can upload the database to cloud yourself or use any method of file sharing you see fit (e.g. USB memory device).
 
+# Decrypting substitution cipher
+
+Initial assumptions:
+- message is in English
+- the last substring (omitting whitespace) suggests that it is decrypting an URL using http-protocol
+- the domain extension is .com.
+
+*C* = HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG
+
+*E* = frequency analysis and 
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
