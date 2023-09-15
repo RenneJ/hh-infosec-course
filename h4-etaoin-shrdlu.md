@@ -124,6 +124,10 @@ Frequency distribution refers to the occurrence of characters in a language. In 
 
 In Finnish: AITNES (Pääkkönen, 1991)
 
+# Password Manager: KeePassXC
+
+### ![h4_keepassxc_intro](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02a433c8-cbc2-4000-8c30-e1f7c3f7cfbb)
+
 # Sources
 
 Pääkkönen, M. 1991. A:sta Ö:hön. Suomen kielen yleisyystilastoja. Kielikello 1/1991. (In Finnish)
