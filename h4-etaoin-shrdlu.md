@@ -152,13 +152,24 @@ If you wish to use KeePassXC on different platforms and devices you can upload t
 # Decrypting substitution cipher
 
 Initial assumptions:
-- message is in English
+- message is in English (ETAOIN SHRDLU mnemonic is valid)
 - the last substring (omitting whitespace) suggests that it is decrypting an URL using http-protocol
-- the domain extension is .com.
+- the domain extension is .com
 
 *C* = HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG
 
-*E* = frequency analysis and 
+*E* = frequency analysis({'H': 11, 'D': 4, 'M': 10, 'B': 10, 'T': 10, 'K': 6, 'W': 10, 'U': 6, 'Y': 8, 'I': 16, 'A': 8, 'R': 2, 'S': 3, 'O': 6, 'J': 4, 'Q': 1, 'N': 4, 'L': 3, 'G': 2, 'P': 3, 'E': 1, 'C': 1})
+
+Using the mnemonic ETAOIN (where T has already been mapped to H) I substitute the most frequent letter I with E and third most frequent letter M with A (10 occurrences M, B and T; W has been mapped in the initial assumption). The result: 
+
+THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
+
+From here a person who knows English and knows the sender can substitute correctly. E.g. first word is THAT'S and the URl at the end is TEROKARVINEN.COM.
+
+
+First run using initial assumptions yields the following:
+
+*P* = THMT'B TT. KOU'YI AOR OSSTCTMJJK M COQINYIMLIY! MB KOU BII, BTMPJI BUNBTTTUTTOA CTPHIYB CMA NI NYOLIA RTTH SYIEUIACK MAMJKBTB. BII KOU MT HTTP://TIYOLMYCTAIA.COM
 
 # Sources
 
