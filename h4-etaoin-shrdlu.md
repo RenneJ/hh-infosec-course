@@ -129,7 +129,18 @@ In Finnish: AITNES (Pääkkönen, 1991)
 ### ![h4_keepassxc_intro](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02a433c8-cbc2-4000-8c30-e1f7c3f7cfbb)
 > Figure 1. Basic information about KeePassXC. Src: https://keepassxc.org/
 
+KeePassXC offers protection against password attacks. Especially brute-force and dictionary attacks.
+
+With KeePassXC you can generate safe passwords to all your different accounts. This helps securing your other accounts if one gets compromised. (KeePassXC Team, 2023)
+
+You still need to be aware of phishing attempts. KeePassXC doesn't do the critical thinking that humans are capable of.
+
+KeePassXC encrypts the database of your passwords with AES256 or Twofish block cipher. The master password (your database password) is strengthened by key transformations. Also the key file may be filled with arbitrary number of bytes or YubiKey to increase security. Further reading:
+- AES256(https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+
 # Sources
+
+KeePassXC Team 2023. Documentation and FAQ. https://keepassxc.org/docs/. Read: 2023/09/15
 
 Pääkkönen, M. 1991. A:sta Ö:hön. Suomen kielen yleisyystilastoja. Kielikello 1/1991. (In Finnish)
 
