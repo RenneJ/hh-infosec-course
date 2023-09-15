@@ -138,7 +138,10 @@ You still need to be aware of phishing attempts. KeePassXC doesn't do the critic
 KeePassXC encrypts the database of your passwords with AES256 or Twofish block cipher. The master password (your database password) is strengthened by key transformations. Also the key file may be filled with arbitrary number of bytes or YubiKey to increase security. Further reading:
 - AES256 https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
 - Twofish https://en.wikipedia.org/wiki/Twofish
-- 
+- YubiKey https://docs.yubico.com/hardware/yubikey/datasheet/_static/YubiKey_technical_data_sheet.pdf
+
+KeePassXC is licensed under GPLv3. The foundations of GPL (GNU General Public License):
+
 
 # Sources
 
