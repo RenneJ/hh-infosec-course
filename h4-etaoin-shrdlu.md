@@ -118,6 +118,14 @@ Three most common cryptographic algorithms:
 - RSA (Rivest, Shamir, Adleman) is the most popular public-key algorithm. Asymmetrical.
 - DSA (Digital Signature Algorithm) is a public-key algorithm. Only for signatures, not encyprition. Asymmetrical.
 
-### Sources
+# Frequency distribution
+
+Frequency distribution refers to the occurrence of characters in a language. In English the six most common characters are ETAOIN.
+
+In Finnish: AITNES (Pääkkönen, 1991)
+
+# Sources
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
+Pääkkönen, M. 1991. A:sta Ö:hön. Suomen kielen yleisyystilastoja. Kielikello 1/1991. (In Finnish)
+
