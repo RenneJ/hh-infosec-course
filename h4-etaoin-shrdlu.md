@@ -160,7 +160,7 @@ Initial assumptions:
 
 *E* = frequency analysis({'H': 11, 'D': 4, 'M': 10, 'B': 10, 'T': 10, 'K': 6, 'W': 10, 'U': 6, 'Y': 8, 'I': 16, 'A': 8, 'R': 2, 'S': 3, 'O': 6, 'J': 4, 'Q': 1, 'N': 4, 'L': 3, 'G': 2, 'P': 3, 'E': 1, 'C': 1})
 
-Using the mnemonic ETAOIN (where T has already been mapped to H) I substitute the most frequent letter I with E and third most frequent letter M with A (10 occurrences M, B and T; W has been mapped in the initial assumption). The result: 
+Using the mnemonic ETAOIN (where T has already been mapped to H) one can substitute the most frequent letter I with E and third most frequent letter M with A (10 occurrences M, B and T; W has been mapped in the initial assumption). The result: 
 
 THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
 
