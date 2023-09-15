@@ -9,7 +9,7 @@
 - hiding the message's information is called encryption (symbol for encryption *E*)
 - encrypted text is called ciphertext (symbol for ciphertext *C*)
 - cryptography = how to keep messages secure
-- cryptanlysis = how to break ciphertext
+- cryptanalysis = how to break ciphertext
 - cryptology = field of study (maths) that covers cryptography and cryptanalysis
 
 **Authentication, Integrity, and Nonrepudiation**
@@ -154,10 +154,10 @@ If you wish to use KeePassXC on different platforms and devices you can upload t
 What's given:
 - sender's identity is known
 - ciphertext is substitution cipher
+- message is in English (ETAOIN SHRDLU mnemonic is valid)
 
 Initial assumptions:
-- message is in English (ETAOIN SHRDLU mnemonic is valid)
-- the last substring (when substring separator is whitespace) suggests that it is an URL
+- the last substring (when substring separator is whitespace) is most likely an URL
 - the domain extension is .com (.org is unlikely because the characters O and G would not be substituted in the message)
 
 > *C* = (HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG)
