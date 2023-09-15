@@ -3,9 +3,6 @@
 ## Applied Cryptography: Chapter 1: Foundations (Schneier, 2015)
 
 ### 1.1 Terminology
-
-**Sender and Receiver**
-- message is sent and it is important that it's sent securely.
  
 **Messages and Encryption**
 - message is called plaintext or cleartext (symbol for message *M*, plaintext *P*)
@@ -116,9 +113,11 @@ What makes one-time pads so great:
 
 ### 1.6 Computer algorithms
 
-### 1.7 Large numbers
+Three most common cryptographic algorithms:
+- DES (Data Encryption Standard) is the most popular computer encryption algorithm. Symmetrical.
+- RSA (Rivest, Shamir, Adleman) is the most popular public-key algorithm. Asymmetrical.
+- DSA (Digital Signature Algorithm) is a public-key algorithm. Only for signatures, not encyprition. Asymmetrical.
 
 ### Sources
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
-Litterio, F. 2008. Why Are One-Time Pads Perfectly Secure?. https://securityaware.wordpress.com/2008/07/15/art/. Read: 2023/09/15
