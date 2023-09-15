@@ -168,7 +168,7 @@ Using the mnemonic ETAOIN (where T has already been mapped to H) one can substit
 
 *P* = THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
 
-From here a person who knows English and knows the sender can substitute easily and very likely correctly. E.g. first word is THAT'S and the URl at the end is TEROKARVINEN.COM.
+From here a person who knows English and knows the sender can substitute easily and very likely correctly. E.g. first word is THAT'S and the URL at the end is TEROKARVINEN.COM.
 
 # Sources
 
