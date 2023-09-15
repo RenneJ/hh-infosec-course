@@ -46,7 +46,7 @@
   - Known-plaintext attack, access to ciphertext and plaintext
   - Chosen-plaintext attack, same as above but also access to dictate the plaintext
   - Adaptive-chosen-plaintext attack, same as above but also get feedback of previous encryption
- > Good cryptographers rely on peer review to separate the good algorithms from the bad.
+ > "Good cryptographers rely on peer review to separate the good algorithms from the bad."
 
 **Security of Algorithms**
 - algorithms have varying levels of security
@@ -109,7 +109,7 @@ Problems:
 
 What makes one-time pads so great:
 
-> Since every plaintext message is equally possible, there is no way for the cryptanalyst to determine which plaintext message is the correct one.
+> "Since every plaintext message is equally possible, there is no way for the cryptanalyst to determine which plaintext message is the correct one."
 
 ### 1.6 Computer algorithms
 
