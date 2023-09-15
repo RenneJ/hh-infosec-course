@@ -33,7 +33,7 @@ def decrypt_text(s: str, freq_mapping: dict):
             char = "E"
         elif char == "M":
             char = "A"
-        """ elif char == "B":
+         elif char == "B":
             char = "S"
         elif char == "T":
             char = "I"
@@ -60,7 +60,7 @@ def decrypt_text(s: str, freq_mapping: dict):
         elif char == "E":
             char = "Q"
         elif char == "R":
-            char = "W" """
+            char = "W" 
         p += char  
     return p
 
