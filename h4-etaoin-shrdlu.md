@@ -145,7 +145,9 @@ KeePassXC is licensed under GPLv3 (GNU General Public License). This means users
 ### ![h4_gpl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d118419a-be03-4c28-a998-c6a3cb814c99)
 > Figure 2. GPL Foundations. Src: https://www.gnu.org/licenses/quick-guide-gplv3.html
 
-All the data encrypted by KeePassXC is stored locally. If you wish to use KeePassXC on different platforms and devices you can upload the database to cloud yourself or use any method of file sharing you see fit (e.g. USB memory device).
+All the data encrypted by KeePassXC is stored locally. When creating a KeePass database the UI prompts you to specify the location. It will be stored with **.kdbx** extension.
+
+If you wish to use KeePassXC on different platforms and devices you can upload the database to cloud yourself or use any method of file sharing you see fit (e.g. USB memory device).
 
 # Sources
 
