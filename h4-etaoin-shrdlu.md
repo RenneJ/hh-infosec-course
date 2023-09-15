@@ -140,7 +140,7 @@ KeePassXC encrypts the database of your passwords with AES256 or Twofish block c
 - Twofish https://en.wikipedia.org/wiki/Twofish
 - YubiKey https://docs.yubico.com/hardware/yubikey/datasheet/_static/YubiKey_technical_data_sheet.pdf
 
-KeePassXC is licensed under GPLv3. The foundations of GPL (GNU General Public License):
+KeePassXC is licensed under GPLv3 (GNU General Public License). This means users can use it how they want, change it how they want, share it and share the changes on the condition that you don't change the license and you provide clear access to the source code.
 
 ### ![h4_gpl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d118419a-be03-4c28-a998-c6a3cb814c99)
 > Figure 2. GPL Foundations. Src: https://www.gnu.org/licenses/quick-guide-gplv3.html
