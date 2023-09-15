@@ -166,7 +166,7 @@ First run using initial assumptions yields the following:
 
 Using the mnemonic ETAOIN (where T has already been mapped to H) one can substitute the most frequent letter I with E and third most frequent letter M with A (10 occurrences M, B and T; W has been mapped in the initial assumption). The result: 
 
-THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
+*P* = THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
 
 From here a person who knows English and knows the sender can substitute easily and very likely correctly. E.g. first word is THAT'S and the URl at the end is TEROKARVINEN.COM.
 
