@@ -131,7 +131,7 @@ In Finnish: AITNES (Pääkkönen, 1991)
 
 KeePassXC offers protection against password attacks. Especially brute-force and dictionary attacks.
 
-With KeePassXC you can generate safe passwords to all your different accounts. This helps securing your other accounts if one gets compromised. (KeePassXC Team, 2023)
+With KeePassXC you can generate safe passwords to all your different accounts. This helps securing your other accounts if one gets compromised.
 
 You still need to be aware of phishing attempts. KeePassXC doesn't do the critical thinking that humans are capable of.
 
@@ -145,7 +145,11 @@ KeePassXC is licensed under GPLv3 (GNU General Public License). This means users
 ### ![h4_gpl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d118419a-be03-4c28-a998-c6a3cb814c99)
 > Figure 2. GPL Foundations. Src: https://www.gnu.org/licenses/quick-guide-gplv3.html
 
+All the data encrypted by KeePassXC is stored locally. If you wish to use KeePassXC on different platforms and devices you can upload the database to cloud yourself or use any method of file sharing you see fit (e.g. USB memory device).
+
 # Sources
+
+Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
 
 KeePassXC Team 2023. Documentation and FAQ. https://keepassxc.org/docs/. Read: 2023/09/15
 
