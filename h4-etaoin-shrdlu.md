@@ -46,7 +46,7 @@
   - Known-plaintext attack, access to ciphertext and plaintext
   - Chosen-plaintext attack, same as above but also access to dictate the plaintext
   - Adaptive-chosen-plaintext attack, same as above but also get feedback of previous encryption
-- "Good cryptographers rely on peer review to separate the good algorithms from the bad."
+ > Good cryptographers rely on peer review to separate the good algorithms from the bad.
 
 **Security of Algorithms**
 - algorithms have varying levels of security
