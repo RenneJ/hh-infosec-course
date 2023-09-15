@@ -142,6 +142,8 @@ KeePassXC encrypts the database of your passwords with AES256 or Twofish block c
 
 KeePassXC is licensed under GPLv3. The foundations of GPL (GNU General Public License):
 
+### ![h4_gpl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d118419a-be03-4c28-a998-c6a3cb814c99)
+> Figure 2. GPL Foundations. Src: https://www.gnu.org/licenses/quick-guide-gplv3.html
 
 # Sources
 
