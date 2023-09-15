@@ -127,6 +127,7 @@ In Finnish: AITNES (Pääkkönen, 1991)
 # Password Manager: KeePassXC
 
 ### ![h4_keepassxc_intro](https://github.com/RenneJ/hh-infosec-course/assets/97522117/02a433c8-cbc2-4000-8c30-e1f7c3f7cfbb)
+> Figure 1. Basic information about KeePassXC
 
 # Sources
 
