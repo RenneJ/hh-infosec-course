@@ -164,8 +164,9 @@ Using the mnemonic ETAOIN (where T has already been mapped to H) one can substit
 
 THAT'B TT. KOU'YE AOR OSSTCTAJJK A COQENYEALEY! AB KOU BEE, BTMPJE BUNBTTTUTTOA CTPHEYB CAA NE NYOLEA RTTH SYEEUEACK AAAJKBTB. BEE KOU AT HTTP://TEYOLAYCTAEA.COM
 
-From here a person who knows English and knows the sender can substitute correctly. E.g. first word is THAT'S and the URl at the end is TEROKARVINEN.COM.
+From here a person who knows English and knows the sender can substitute easily and very likely correctly. E.g. first word is THAT'S and the URl at the end is TEROKARVINEN.COM.
 
+I wrote a short hard-coded program to help me solve this. It's provided in the repository main branch (h4_code.py).
 
 First run using initial assumptions yields the following:
 
