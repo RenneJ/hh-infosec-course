@@ -261,10 +261,13 @@ I just encrypt for myself. Whoever wants to get into the secret text file needs 
 ### ![h4_gpg_encrypt](https://github.com/RenneJ/hh-infosec-course/assets/97522117/add5e96f-aa6b-41d8-b111-7782c530f564)
 > Figure 11. Encryption window.
 
-Decrypting is easy. I just double-click the file I want to open and Kleopatra opens (figure 12). I specify the output destination... et voilà!
+Decrypting is easy. I just double-click the file I want to open and Kleopatra opens (figure 12). I (should give my password but it is still cached and) specify the output destination... et voilà! DECRYPTED (figure 13)!
 
-### ![h4_gpg_decrypt](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e7e08d7c-5d8e-4204-8704-a9828ebfe141)
-> Figure 12. Decrypting with Kleopatra. The view
+### ![h4_gpg_decrypt](https://github.com/RenneJ/hh-infosec-course/assets/97522117/94b3c242-b819-4bd9-9f45-7d6feb547713)
+> Figure 12. Decrypting with Kleopatra.
+
+### ![h4_gpg_secret_revealed](https://github.com/RenneJ/hh-infosec-course/assets/97522117/07b98102-8465-4687-b8e5-ef9549d3a8b4)
+> Figure 13. Secret revealed!
 
 # Sources
 
