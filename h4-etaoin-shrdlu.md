@@ -216,6 +216,8 @@ After setting up the database navigate to your browser's extension/addon store a
 
 Then open your KeePassXC and go to Tools > Setting and on the sidebar Browser Integration.
 
+### ![h4_keepassxc_browser_integration](https://github.com/RenneJ/hh-infosec-course/assets/97522117/06fdfc0e-641a-48e0-afd9-2148e3aff0ba)
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
