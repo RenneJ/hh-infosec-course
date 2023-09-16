@@ -140,7 +140,7 @@ KeePassXC encrypts the database of your passwords with AES256 or Twofish block c
 - Twofish https://en.wikipedia.org/wiki/Twofish
 - YubiKey https://docs.yubico.com/hardware/yubikey/datasheet/_static/YubiKey_technical_data_sheet.pdf
 
-KeePassXC is licensed under GPLv3 (GNU General Public License). This means users can use it how they want, change it how they want, share it and share the changes on the condition that you don't change the license and you provide clear access to the source code.
+KeePassXC is licensed under GPLv3 (GNU General Public License). This means users can use it how they want, change it how they want, share it and share the changes on the condition that you don't change the license and you provide clear access to the source code (Smith, 2022).
 
 ### ![h4_gpl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d118419a-be03-4c28-a998-c6a3cb814c99)
 > Figure 2. GPL Foundations. Src: https://www.gnu.org/licenses/quick-guide-gplv3.html
@@ -234,16 +234,29 @@ I had some issues getting the extension working and wrapping my mind around the 
 
 I reckon that there are more user friendly options to manage passwords but KeePassXc seems and feels very secure. The manual entries at least help or challenge the user to personally keep track of their own credentials.
 
-# E
+# Encrypting and decrypting a message
+
+I use Gpg4win for this part of the assignment. Gpg4win is a Windows version of GPG (GNU Privacy Guard). It is an encryption system which uses several different encryption methods both symmetrical and public-key (Callas et al., 2007).
+
+I downloaded Gpg4win from https://www.gpg4win.org/get-gpg4win.html which is the official website maintained by the developers of GnuPG. I verified the SHA-256 checksum after downloading and then executed the install wizard.
+
+### Let's use the GUI!
+
+In class I used the terminal on my Linux this time let's use Kleopatra - a management tool with graphical interface.
+
+### ![h4_gpg_kleopatra_start](https://github.com/RenneJ/hh-infosec-course/assets/97522117/56d7ead5-00f7-4407-9190-de0e13875842)
+> Figure 9. Kleopatra starting view.
 
 # Sources
 
-Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
+Callas et al., 2007. OpenPGP Message Format. https://www.ietf.org/rfc/rfc4880.txt. Read: 2023/09/16
 
 KeePassXC Team 2023. Documentation and FAQ. https://keepassxc.org/docs/. Read: 2023/09/15
 
 Pääkkönen, M. 1991. A:sta Ö:hön. Suomen kielen yleisyystilastoja. Kielikello 1/1991. (In Finnish)
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
+
+Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
 
 
