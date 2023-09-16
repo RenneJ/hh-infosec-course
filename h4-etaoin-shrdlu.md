@@ -214,9 +214,10 @@ Again I trust the guidance of KeePassXC Team. I keep the default settings.
 
 After setting up the database navigate to your browser's extension/addon store and install KeePassXC-Browser. Checking the publisher name, download count and reviews gives you good indication that you are installing the right extension. Add the extension to your browser.
 
-Then open your KeePassXC and go to Tools > Setting and on the sidebar Browser Integration.
+Then open your KeePassXC and go to Tools > Setting and on the sidebar Browser Integration (figure 7). I followed the KeePassXC [Getting Started Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted#_setup_browser_integration). Choose your browser and tick the boxes. Restart your browser and establish connection between browser and database. You are prompted to name the connection. Using an existing name for the connection overwrites it.
 
 ### ![h4_keepassxc_browser_integration](https://github.com/RenneJ/hh-infosec-course/assets/97522117/06fdfc0e-641a-48e0-afd9-2148e3aff0ba)
+> Figure 7. View of Browser Integration.
 
 # Sources
 
