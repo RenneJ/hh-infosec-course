@@ -247,6 +247,13 @@ In class I used the terminal on my Linux this time let's use Kleopatra - a manag
 ### ![h4_gpg_kleopatra_start](https://github.com/RenneJ/hh-infosec-course/assets/97522117/56d7ead5-00f7-4407-9190-de0e13875842)
 > Figure 9. Kleopatra starting view.
 
+Now we can generate a key pair.
+
+Follow the prompts. You can passphrase protect the certificate but it's not required.
+
+### ![h4_gpg_new_cert](https://github.com/RenneJ/hh-infosec-course/assets/97522117/a4d44fcf-e653-428d-9b30-ed88dd0a3bb8)
+> FIgure 10. New certificate.
+
 # Sources
 
 Callas et al., 2007. OpenPGP Message Format. https://www.ietf.org/rfc/rfc4880.txt. Read: 2023/09/16
