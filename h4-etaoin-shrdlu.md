@@ -210,6 +210,12 @@ Again I trust the guidance of KeePassXC Team. I keep the default settings.
 ### ![h4_keepassxc_db_creds](https://github.com/RenneJ/hh-infosec-course/assets/97522117/fce19554-3ca2-4aaf-b71f-e77ba9d9d43d)
 > Figure 6. View of Database Credentials input window.
 
+### 3. Browser extension
+
+After setting up the database navigate to your browser's extension/addon store and install KeePassXC-Browser. Checking the publisher name, download count and reviews gives you good indication that you are installing the right extension. Add the extension to your browser.
+
+Then open your KeePassXC and go to Tools > Setting and on the sidebar Browser Integration.
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
