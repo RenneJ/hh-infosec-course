@@ -219,6 +219,12 @@ Then open your KeePassXC and go to Tools > Setting and on the sidebar Browser In
 ### ![h4_keepassxc_browser_integration](https://github.com/RenneJ/hh-infosec-course/assets/97522117/06fdfc0e-641a-48e0-afd9-2148e3aff0ba)
 > Figure 7. View of Browser Integration.
 
+### 4. Let's try it!
+
+For this demo I'll make a new account to reddit.com using KeePassXc browser extension.
+
+The log in window on reddit webpage now has the KeePassXC logo. It is used to auto-fill credentials.
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
