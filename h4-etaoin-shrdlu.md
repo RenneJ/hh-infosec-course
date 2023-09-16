@@ -227,7 +227,7 @@ When I navigated to the sign up window I noticed that I couldn't auto-generate a
 
 You still need to manually create a new entry into KeePassXC database. Fill in title, username (after making sure it's available on the website), password and URL. When you have created the entry you can use the extension's integration to enter your credentials automatically. It will prompt you to select the allowed credentials. Detailed steps are [here](https://keepassxc.org/docs/KeePassXC_GettingStarted#_adding_an_entry).
 
-### ![h4_keepassxc_aybabtu](https://github.com/RenneJ/hh-infosec-course/assets/97522117/892c1d43-f520-4bbc-8638-3592ac5f2cf1)
+### ![h4_keepassxc_aybabtu](https://github.com/RenneJ/hh-infosec-course/assets/97522117/eadca115-841f-476a-a0cc-1aa486c642bd)
 > Figure 8. Reddit's log in view with KeePassXC auto-fill used.
 
 # Sources
