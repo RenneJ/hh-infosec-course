@@ -180,7 +180,7 @@ I wrote a short program to help me with the decrypting. The code serves more as 
 
 I chose KeePassXC because of Tero's recommendation. Furthermore KeePassXC uses no clouds, no 3rd parties and is open source. These things make it more trustworthy in my eyes.
 
-I began working on this demo on my home desktop (Win11). My goal is to synchronise my password database with my laptop (Ubuntu 22.04) as well.
+I began working on this demo on my home desktop (Win11).
 
 Before any computer processes I read through the KeePassXC [Starting Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted). I also referred to the more detailed [User Guide](https://keepassxc.org/docs/KeePassXC_UserGuide) many times throughout the steps of this demo.
 
