@@ -247,12 +247,24 @@ In class I used the terminal on my Linux this time let's use Kleopatra - a manag
 ### ![h4_gpg_kleopatra_start](https://github.com/RenneJ/hh-infosec-course/assets/97522117/56d7ead5-00f7-4407-9190-de0e13875842)
 > Figure 9. Kleopatra starting view.
 
-Now we can generate a key pair.
+Now I can generate a key pair.
 
-Follow the prompts. You can passphrase protect the certificate but it's not required.
+Following prompts... You can passphrase-protect the certificate but it's not required. I used KeePassXC generated password which I stored in the secure database. 
 
 ### ![h4_gpg_new_cert](https://github.com/RenneJ/hh-infosec-course/assets/97522117/a4d44fcf-e653-428d-9b30-ed88dd0a3bb8)
 > FIgure 10. New certificate.
+
+After creating the certificate (key pair). I created a plaintext .txt file that I plan on encrypting. I click the Sign/Encrypt button on top-left corner and proceed.
+
+I just encrypt for myself. Whoever wants to get into the secret text file needs my password.
+
+### ![h4_gpg_encrypt](https://github.com/RenneJ/hh-infosec-course/assets/97522117/add5e96f-aa6b-41d8-b111-7782c530f564)
+> Figure 11. Encryption window.
+
+Decrypting is easy. I just double-click the file I want to open and Kleopatra opens (figure 12). I specify the output destination... et voilà!
+
+### ![h4_gpg_decrypt](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e7e08d7c-5d8e-4204-8704-a9828ebfe141)
+> Figure 12. Decrypting with Kleopatra. The view
 
 # Sources
 
