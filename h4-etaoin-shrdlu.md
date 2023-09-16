@@ -182,6 +182,8 @@ I chose KeePassXC because of Tero's recommendation. Furthermore KeePassXC uses n
 
 I began working on this demo on my home desktop (Win11). My goal is to synchronise my password database with my laptop (Ubuntu 22.04) as well.
 
+Before any computer processes I read through the KeePassXC [Starting Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted). I also referred to the more detailed [User Guide](https://keepassxc.org/docs/KeePassXC_UserGuide) many times throughout the steps of this demo.
+
 ### 1. Download and install (Win11)
 
 I downloaded the latest KeePassXC version (2.7.6) from the official organisation webpage. In figure 3 the PGP Signature and SHA-256 Digest refer to verification of the downloaded software's authenticity and integrity. KeePassXCTeam assures that it's not necessary to verify signatures if you used the official website to download the program. I chose to believe them and proceeded with installation.
@@ -196,9 +198,11 @@ The installation was effortless with the installation wizard. The only things re
 
 ### 2. Creating a new database
 
-Let's start by clicking *Create new database*. You can name your database and a description to it. Description is not manadatory, default name is *Passwords*. After naming you are prompted to set your encryption preferences (figure 5).
+Let's start by clicking *Create new database*. You can name your database and a description to it. Description is not manadatory, default name is *Passwords*. After naming you are prompted to set your encryption preferences (figure 5). It is not recommended to make changes to these settings. Increasing the Deccryption Time slider increases the level of security but also increses the time it takes to open the database.
 
-### 
+Again
+
+### ![h4_keepassxc_encrypt_set](https://github.com/RenneJ/hh-infosec-course/assets/97522117/495aacc2-8d73-43bf-9c58-be392cb7ff5f)
 
 # Sources
 
