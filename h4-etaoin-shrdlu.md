@@ -228,6 +228,12 @@ First I created a new username (valid for the website) and after that I opened K
 ### ![h4_keepassxc_aybabtu](https://github.com/RenneJ/hh-infosec-course/assets/97522117/eadca115-841f-476a-a0cc-1aa486c642bd)
 > Figure 8. Reddit's log in view with KeePassXC auto-fill used.
 
+### 5. Closing notes
+
+I had some issues getting the extension working and wrapping my mind around the concept of this program. I assumed that one could generate and create a new entry into database using just the browser integration. That turned out to be untrue. Furthermore I became annoyed quickly after having to open the database and entering the master password several times in a short time frame. Quick googling solved this issue. I unticked a box in the security settings that specified the database to lock when session or lid is closed. After that it was much smoother.
+
+I reckon that there are more user friendly options to manage passwords but KeePassXc seems and feels very secure. The manual entries at least help or challenge the user to personally keep track of their own credentials. 
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
