@@ -221,11 +221,14 @@ Then open your KeePassXC and go to Tools > Setting and on the sidebar Browser In
 
 ### 4. Let's try it!
 
-For this demo I'll make a new account to reddit.com using KeePassXc browser extension.
+For this demo I'll make a new account to reddit.com using KeePassXC browser extension.
 
-When I navigated to the sign up window I noticed that I couldn't auto-generate a strong password using KeePassXC. I checked the extension's options and ticked the box that said *Activate password generator icons.*. It makes it faster to create a new account. The option opens your KeePassXC app's password generator. From there you can copy the generated password and apply it to your database. Paste the password to corresponding sign-up window's input field.
+When I navigated to the sign up window I noticed that I couldn't auto-generate a strong password using KeePassXC-Browser. I checked the extension's options and ticked the box that said *Activate password generator icons.*. It makes it faster to create a new account. The option opens your KeePassXC app's password generator. From there you can copy the generated password and apply it to your database. Paste the password to corresponding sign-up window's input field. Come up with your own username. Many websites' username is often your email.
+
+You still need to manually create a new entry into KeePassXC database. Fill in title, username (after making sure it's available on the website), password and URL. When you have created the entry you can use the extensions integration to enter your credentials automatically.
 
 ### ![h4_keepassxc_demo_acc](https://github.com/RenneJ/hh-infosec-course/assets/97522117/1a5940bb-4e06-4e88-bf92-0d2edcb261a9)
+> Figure 8. Reddit's sign-up view with KeePassXC icons.
 
 # Sources
 
