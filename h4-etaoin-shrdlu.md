@@ -176,6 +176,16 @@ From here a person who knows English and knows who the sender is can substitute 
 
 I wrote a short program to help me with the decrypting. It's provided in the main branch of this repo ([h4_code.py](https://github.com/RenneJ/hh-infosec-course/blob/main/h4_code.py))
 
+# Password manager demo: KeePassXC
+
+I chose KeePassXC because of Tero's recommendation. Furthermore KeePassXC uses no clouds, no 3rd parties and is open source. These things make it more trustworthy in my eyes.
+
+I began working on this demo on my home desktop (Win11). My goal is to synchronise my password database with my laptop (Ubuntu 22.04) as well.
+
+### 1. Download and install
+
+I downloaded the latest KeePassXC version (2.7.6) from the official organisation webpage: https://keepassxc.org/download/#windows
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
