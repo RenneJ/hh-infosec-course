@@ -205,7 +205,7 @@ Again I trust the guidance of KeePassXC Team. I keep the default settings.
 ### ![h4_keepassxc_encrypt_set](https://github.com/RenneJ/hh-infosec-course/assets/97522117/495aacc2-8d73-43bf-9c58-be392cb7ff5f)
 > Figure 5. View of default Encryption Settings.
 
- After clicking *Continue* you are presented with an **IMPORTANT PART**. Either choose carefully your own master password (the term passphrase would be better here or my simple, easy to remember acronym CMCANSWSC = Complex Multi Character Alpha Numeral String With Special Characters) or use a random generated password (by clicking the die symbol next to the eye symbol). If this password is lost you might lose access to your *Passwords* database for good. It is recommended that you make note of it. I'm not telling my strategy. But what would you do?
+ After clicking *Continue* you are presented with an **IMPORTANT PART**. Either choose carefully your own master password or use a random generated password (by clicking the die symbol next to the eye symbol). If this password is lost you might lose access to your *Passwords* database for good. It is recommended that you make note of your password. I'm not telling what I chose to do. What would you do?
 
 ### ![h4_keepassxc_db_creds](https://github.com/RenneJ/hh-infosec-course/assets/97522117/fce19554-3ca2-4aaf-b71f-e77ba9d9d43d)
 > Figure 6. View of Database Credentials input window.
