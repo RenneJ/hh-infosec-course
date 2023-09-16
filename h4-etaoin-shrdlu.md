@@ -182,14 +182,21 @@ I chose KeePassXC because of Tero's recommendation. Furthermore KeePassXC uses n
 
 I began working on this demo on my home desktop (Win11). My goal is to synchronise my password database with my laptop (Ubuntu 22.04) as well.
 
-### 1. Download and install
+### 1. Download and install (Win11)
 
 I downloaded the latest KeePassXC version (2.7.6) from the official organisation webpage. In figure 3 the PGP Signature and SHA-256 Digest refer to verification of the downloaded software's authenticity and integrity. KeePassXCTeam assures that it's not necessary to verify signatures if you used the official website to download the program. I chose to believe them and proceeded with installation.
 
 ### ![h4_keepass_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/5ff0ea6f-ad10-4e34-9da9-e627f70a7227)
 > Figure 3. View from KeePassXc download page. Src: https://keepassxc.org/download/#windows
 
-The installation was effortless with the installation wizard. The only things requiring user input was determining the installation path and agreeing to GPLv3. As an added security feature KeePassXC GUI becomes hidden when you try to take screenshot. For the purpose of this demo I set it off. Let's just be careful what we take screenshots of!
+The installation was effortless with the installation wizard. The only things requiring user input was determining the installation path and agreeing to GPLv3. As an added security feature KeePassXC GUI becomes hidden when you try to take screenshot. For the purpose of this demo I set it off. Let's just be careful with what we take screenshots of!
+
+### ![h4_keepassxc_start](https://github.com/RenneJ/hh-infosec-course/assets/97522117/2a2a833b-5d82-42b8-aa10-084ecd84a33a)
+> Figure 4. View from KeePassXC application GUI startup. No databases are done yet.
+
+### 2. Creating a new database
+
+Let's start by clicking *Create new database*. You can name your database and a description to it. Description is not manadatory, default name is *Passwords*. After naming you are prompted to set your encryption preferences (figure 5).
 
 ### 
 
