@@ -189,6 +189,10 @@ I downloaded the latest KeePassXC version (2.7.6) from the official organisation
 ### ![h4_keepass_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/5ff0ea6f-ad10-4e34-9da9-e627f70a7227)
 > Figure 3. View from KeePassXc download page. Src: https://keepassxc.org/download/#windows
 
+The installation was effortless with the installation wizard. The only things requiring user input was determining the installation path and agreeing to GPLv3. As an added security feature KeePassXC GUI becomes hidden when you try to take screenshot. For the purpose of this demo I set it off. Let's just be careful what we take screenshots of!
+
+### 
+
 # Sources
 
 Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
