@@ -84,7 +84,7 @@ XOR is the exclusive-or operator.
 
 XOR is a trivial encryption as it can easily be decrypted without the knowledge of the key. XORing the same value twice returns the original plaintext.
 
-My quick example and let's remember that *EK(P)=C*:
+My quick example and let's remember that *E<sub>K</sub>(P)=C*:
 
 *P* = 00101011
 
@@ -232,7 +232,9 @@ First I created a new username (valid for the website) and after that I opened K
 
 I had some issues getting the extension working and wrapping my mind around the concept of this program. I assumed that one could generate and create a new entry into database using just the browser integration. That turned out to be untrue. Furthermore I became annoyed quickly after having to open the database and entering the master password several times in a short time frame. Quick googling solved this issue. I unticked a box in the security settings that specified the database to lock when session or lid is closed. After that it was much smoother.
 
-I reckon that there are more user friendly options to manage passwords but KeePassXc seems and feels very secure. The manual entries at least help or challenge the user to personally keep track of their own credentials. 
+I reckon that there are more user friendly options to manage passwords but KeePassXc seems and feels very secure. The manual entries at least help or challenge the user to personally keep track of their own credentials.
+
+# E
 
 # Sources
 
