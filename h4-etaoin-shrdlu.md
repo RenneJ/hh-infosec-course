@@ -198,9 +198,9 @@ The installation was effortless with the installation wizard. The only things re
 
 ### 2. Creating a new database
 
-Let's start by clicking *Create new database*. You can name your database and a description to it. Description is not manadatory, default name is *Passwords*. After naming you are prompted to set your encryption preferences (figure 5). It is not recommended to make changes to these settings. Increasing the Deccryption Time slider increases the level of security but also increses the time it takes to open the database.
+Let's start by clicking *Create new database*. You can name your database and a description to it. Description is not manadatory, default name is *Passwords*. After naming you are prompted to set your encryption preferences (figure 5). It is not recommended to make changes to these settings. Increasing the Decryption Time slider increases the level of security but also increses the time it takes to open the database.
 
-Again
+Again I trust the guidance of KeePassXC Team. I keep the default settings.
 
 ### ![h4_keepassxc_encrypt_set](https://github.com/RenneJ/hh-infosec-course/assets/97522117/495aacc2-8d73-43bf-9c58-be392cb7ff5f)
 
