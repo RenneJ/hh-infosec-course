@@ -184,7 +184,7 @@ I began working on this demo on my home desktop (Win11). My goal is to synchroni
 
 ### 1. Download and install
 
-I downloaded the latest KeePassXC version (2.7.6) from the official organisation webpage.
+I downloaded the latest KeePassXC version (2.7.6) from the official organisation webpage. In figure 3 the PGP Signature and SHA-256 Digest refer to verification of the downloaded software's authenticity and integrity. KeePassXCTeam assures that it's not necessary to verify signatures if you used the official website to download the program. I chose to believe them and proceeded with installation.
 
 ### ![h4_keepass_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/5ff0ea6f-ad10-4e34-9da9-e627f70a7227)
 > Figure 3. View from KeePassXc download page. Src: https://keepassxc.org/download/#windows
