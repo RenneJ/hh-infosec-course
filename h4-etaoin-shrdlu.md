@@ -247,9 +247,9 @@ In class I used the terminal on my Linux this time let's use Kleopatra - a manag
 ### ![h4_gpg_kleopatra_start](https://github.com/RenneJ/hh-infosec-course/assets/97522117/56d7ead5-00f7-4407-9190-de0e13875842)
 > Figure 9. Kleopatra starting view.
 
-Now I can generate a key pair.
+Now I can generate a key pair. A public-key which can be published and a private key that can be sent to another. This way The sender creates these keys. The recipient gets the private key which they can use to decipher the message..
 
-Following prompts... You can passphrase-protect the certificate but it's not required. I used KeePassXC generated password which I stored in the secure database. 
+Following prompts... You can passphrase-protect the certificate but it's not required. I used KeePassXC generated password which I stored in a secure database. 
 
 ### ![h4_gpg_new_cert](https://github.com/RenneJ/hh-infosec-course/assets/97522117/a4d44fcf-e653-428d-9b30-ed88dd0a3bb8)
 > FIgure 10. New certificate.
