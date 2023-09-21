@@ -4,16 +4,25 @@
 
 ### 2.3 One-way Functions
 
-- easy to compute and very hard to reverse
-  - hard = it would take millions of years using all current computers
-- example:
-  - it's easy to break a plate and very hard to put it back together
-- there is no mathematical proof for the existence of one-way functions
-- **trapdoor one-way functions** have secret that can be used to reverse the function
-- example:
-  - to disassemble a watch is easy but hard to put back together without a guide (i.e. the secret)
+- Easy to compute and very hard to reverse
+  - Hard = it would take millions of years using all current computers
+- Example:
+  - It's easy to break a plate and very hard to put it back together
+- There is no mathematical proof for the existence of one-way functions
+- **Trapdoor one-way functions** have secret that can be used to reverse the function
+- Example:
+  - To disassemble a watch is easy but hard to put back together without a guide (i.e. the secret)
 
 ### 2.4 One-way Hash Functions
+
+- Also called:
+  - Compression function
+  - Contraction function
+  - Message digest
+  - Fingerprint
+  - Cryptographic checksum
+  - Message Integrity Check (MIC)
+  - Manipulation Detection Code (MDC)
 
 # Sources
 
