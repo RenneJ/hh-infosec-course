@@ -23,6 +23,10 @@
   - Cryptographic checksum
   - Message Integrity Check (MIC)
   - Manipulation Detection Code (MDC)
+- Is a part of many protocols
+- It takes a variable-length input string (**pre-image**) and converts it to fixed-length output string (**hash value**)
+- The point is to compare and to validate a candidate **pre-image** to previously established (real) **pre-image**
+- 
 
 # Sources
 
