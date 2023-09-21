@@ -26,7 +26,7 @@
 - Is a part of many protocols
 - It takes a variable-length input string (**pre-image**) and converts it to fixed-length output string (**hash value**)
 - The point is to compare and to validate a candidate pre-image to previously established (real) pre-image
-  - It's easy to compute a hash value but hard to reverse it and it's hard to compute a different pre-image with the same hash value
+  - It's easy to compute a hash value but hard to reverse it and it's hard to compute a different pre-image with the same hash value as the original
 
 # Sources
 
