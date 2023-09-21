@@ -6,3 +6,6 @@
 
 ### 2.4 One-way Hash Functions
 
+# Sources
+
+Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
