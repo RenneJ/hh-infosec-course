@@ -27,6 +27,9 @@
 - It takes a variable-length input string (**pre-image**) and converts it to fixed-length output string (**hash value**)
 - The point is to compare and to validate a candidate pre-image to previously established (real) pre-image
   - It's easy to compute a hash value but hard to reverse it and it's hard to compute a different pre-image with the same hash value as the original
+  - A good one-way function is called collision-free
+    - Simple XOR is NOT a good one-way function
+- Hashes (or fingerprints, checksums etc.) are a good way to validate the authenticities of files
 
 # Sources
 
