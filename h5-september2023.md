@@ -164,6 +164,16 @@ I got hashid working a bit differently on my win11 machine. I used the commands 
 
 ### ![h5_hashid](https://github.com/RenneJ/hh-infosec-course/assets/97522117/86086a26-c416-494f-ac98-d6d233ed572f)
 
+Let's get cracking with what we used before (MD5).
+
+### ![h5_hashcat_crack](https://github.com/RenneJ/hh-infosec-course/assets/97522117/87275d4c-c8c8-4884-afb1-567a1b4dd231)
+> Figure 7. Cracked again.
+
+Results are only in potfile now that -o [filename] was left out (figure 8).
+
+### ![h5_hashcat_potfile](https://github.com/RenneJ/hh-infosec-course/assets/97522117/890ac683-cfc3-478a-8c11-2e65e02f9b13)
+> Figure 8. The content of hashcat.potfile.
+
 # Sources
 
 Benenson, Z., Gassmann, F., & Landwirth, R. 2016. Exploiting curiosity and context: How to make people click on a dangerous link despite their security awareness
