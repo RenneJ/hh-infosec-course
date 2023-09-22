@@ -85,8 +85,28 @@ According to Benenson, Gassman and Landwirth (2016):
 **IDN Homograph Attack** 🗡️
 
 - Use similar looking characters to bypass detection e.g. cyrillic A looks similar to latin A but has different encoding
+ 
+### What usually works in phishing?
 
+- Package delivery message
+  - "You have a package at... tracking code xyz123"
+- Mail from IT/Service desk
+- LinkedIn, Gmail, Dropbox...
+  - Well-known, reputable organisations
+- Information related to current events within organisation
 
+### What to do?
+
+- Implement aforementioned protocols (marked with 🛡️)
+- Keep your domains safe
+  - Register similar domains to yourself
+- Educate and train users
+- Secure infrastructure
+  - Properly configured and separated networks within the organisation
+
+### My notes
+
+I was surprised by the numbers presented in the video. The amount of people who clicked the links (in studies and controlled cases) was greater than I expected. Also, it is becoming apparent that faking a legitimate looking site doesn't take much technical skill.
 
 # Sources
 
