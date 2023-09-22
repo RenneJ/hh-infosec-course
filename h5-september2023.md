@@ -175,7 +175,7 @@ The has was indeed MD5 and the pre-image was in rockyou.txt. Results are only in
 ### ![h5_hashcat_potfile](https://github.com/RenneJ/hh-infosec-course/assets/97522117/890ac683-cfc3-478a-8c11-2e65e02f9b13)
 > Figure 8. The content of hashcat.potfile.
 
-So there we have it correct answer is: > february
+So there we have it! Correct answer: february
 
 # Sources
 
