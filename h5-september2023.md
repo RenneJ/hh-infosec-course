@@ -177,9 +177,7 @@ So there we have it! Correct answer: february
 
 # Gone Phishing
 
-## Scenario
-
-## Phishy email
+## Phishy email (concept)
 
 Sender: mîcrosoft-noreply@mîcrosoft.com
 
@@ -203,6 +201,12 @@ Review your subscription today to continue using the smart assistance features i
 **Expiration date:** October 1, 2023
 
 **Payment method:** Visa
+
+## Scenario
+
+The targets could be acquired using legitimate methods. Pretty much anyone can buy email lists and many such service providers boast about their accuracy in creating specific demographics. It shouldn't be too hard to acquire 2000 emails of families with kids' who are ages 10-18 (the age when they would need to use Office365 products).
+
+The email link would take the target to a site where they would be asked to input their login credentials and that is what this scenario's threat actor is after. After the input the target could be redirected to the real Microsoft web page.
 
 # Sources
 
