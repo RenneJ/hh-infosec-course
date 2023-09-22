@@ -80,7 +80,7 @@ According to Benenson, Gassman and Landwirth (2016):
 
 - Effective for spear-phishing (targeted phishing attacks)
   - Usually goal is to get user credentials
-- Using only HTTPS is an effective protection aganist clone sites
+- Using only HTTPS is an effective protection against clone sites
 
 **IDN Homograph Attack** 🗡️
 
