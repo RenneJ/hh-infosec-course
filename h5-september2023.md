@@ -136,6 +136,10 @@ After this you can unpack/extract the hashcat .7z file. Use 7-Zip File Manager. 
 
 ### Using hashcat
 
+Let's first download a wordlist. I downloaded the rockyou.txt raw file from GitHub (https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz) and unpacked it (figure 3).
+
+### ![h5_hashcat_wordlist](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e7a43c10-62f8-49d3-9241-33a8dd9de0b9)
+
 Open Command Prompt (on windows 11 I always type cmd to search and press Enter). Then navigate to the location you unpacked hashcat to. You know you're in the right folder when the prompt in cmd says hashcat-[version.number].
 
 
