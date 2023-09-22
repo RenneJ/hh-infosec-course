@@ -108,6 +108,16 @@ According to Benenson, Gassman and Landwirth (2016):
 
 I was surprised by the numbers presented in the video. The amount of people who clicked the links (in studies and controlled cases) was greater than I expected. Also, it is becoming apparent that faking a legitimate looking site doesn't take much technical skill.
 
+# Cracking Hashes
+
+## Install Hashcat
+
+I did this exercise as a demonstration during class. For this assignment I'm replicating and documenting the process on a Win11 Desktop.
+
+### Download
+
+Download hashcat from the official website (https://hashcat.net/hashcat/)
+
 # Sources
 
 Benenson, Z., Gassmann, F., & Landwirth, R. 2016. Exploiting curiosity and context: How to make people click on a dangerous link despite their security awareness
