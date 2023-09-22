@@ -148,10 +148,13 @@ Open Command Prompt (on windows 11 I always type cmd to search and press Enter).
 ### ![h5_hashcat_example_crack](https://github.com/RenneJ/hh-infosec-course/assets/97522117/487a6804-fd4e-45c7-b30c-e16980ae6c38)
 > Figure 4. View from Command Prompt.
 
-In fiure 4 I have started the hashcat password cracking. I faced a few problems. Firstly: I had to extract the rockyou wordlist another time and I also had to alter the command to match my directory specifications. Secondly: I got an error noting me about token length (figure 5) which was fixed by leaving the single quotes out.
+In fiure 4 I have started the hashcat password cracking. I faced a few problems. Firstly: I had to extract the rockyou wordlist another time and I also had to alter the command to match my directory specifications. Secondly: I got an error noting me about token length (figure 5) which was fixed by leaving the single quotes out. The answer is shown in figure 6 (with a few incorrect commands I tried before googling).
 
 ### ![h5_hashcat_error_01](https://github.com/RenneJ/hh-infosec-course/assets/97522117/826a5d71-fe73-48b9-b5c2-b03af548c720)
 > Figure 5. Hashcat token length exception.
+
+### ![h5_hashcat_solved_01](https://github.com/RenneJ/hh-infosec-course/assets/97522117/77e298c6-0244-44dc-b0a6-653bf4ed7a04)
+> Figure 6. Example hash cracked!
 
 # Sources
 
