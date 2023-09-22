@@ -158,8 +158,6 @@ In fiure 4 I have started the hashcat password cracking. I faced a few problems.
 
 ## Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f
 
-### Identify hash type
-
 I got hashid working a bit differently on my win11 machine. I used the commands provided in hashid github repo (https://github.com/psypanda/hashID). Then I opened another cmd window and navigated to Python directory where I launched the hashid.py (figure 7). My input is the first line (highlighted yellow).
 
 ### ![h5_hashid](https://github.com/RenneJ/hh-infosec-course/assets/97522117/86086a26-c416-494f-ac98-d6d233ed572f)
