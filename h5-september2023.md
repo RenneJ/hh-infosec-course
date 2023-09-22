@@ -168,12 +168,41 @@ Let's get cracking with what we used before (MD5).
 ### ![h5_hashcat_crack](https://github.com/RenneJ/hh-infosec-course/assets/97522117/87275d4c-c8c8-4884-afb1-567a1b4dd231)
 > Figure 8. Hashcat starting.
 
-The has was indeed MD5 and the pre-image was in rockyou.txt. Results are only in potfile now that -o [filename] was left out (figure 8).
+The hash was indeed MD5 and the pre-image was in rockyou.txt. Results are only in potfile now that -o [filename] was left out (figure 8).
 
 ### ![h5_hashcat_potfile](https://github.com/RenneJ/hh-infosec-course/assets/97522117/890ac683-cfc3-478a-8c11-2e65e02f9b13)
 > Figure 8. The content of hashcat.potfile.
 
 So there we have it! Correct answer: february
+
+# Gone Phishing
+
+## Scenario
+
+## Phishy email
+
+Sender: mîcrosoft-noreply@mîcrosoft.com
+
+Subject: Your Microsoft 365 Family subscription will expire soon
+
+🪟
+
+##Your Microsoft 365 Family subscription will expire soon
+
+Your Microsoft 365 Family subscription will expire on October 1, 2023. After this date, you will lose access to the latest AI-powered Office apps and 1 TB of OneDrive cloud storage, and more.
+
+Review your subscription today to continue using the smart assistance features in Word, Excel, PowerPoint, and more.
+
+> Review Account
+
+### Account information
+**Subscription name:** Microsoft 365 Family
+
+**Subscription Price:** EUR 99.00
+
+**Expiration date:** October 1, 2023
+
+**Payment method:** Visa
 
 # Sources
 
