@@ -31,6 +31,10 @@
     - Simple XOR is NOT a good one-way function
 - Hashes (or fingerprints, checksums etc.) are a good way to validate the authenticities of files
 
+## Phishing through emails (Särökaari, 2018)
+
+
+
 # Sources
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
