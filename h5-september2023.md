@@ -114,13 +114,30 @@ I was surprised by the numbers presented in the video. The amount of people who 
 
 I did this exercise as a demonstration during class. For this assignment I'm replicating and documenting the process on a Win11 Desktop.
 
-### Download
+### Download and unpack
 
-Download hashcat from the official website (https://hashcat.net/hashcat/)
+Download hashcat from the official website (https://hashcat.net/hashcat/).
 
-Check that the fingerprints match.
+Check that the fingerprints match. Download PGP Signature and check that it is the same as in the highlighted area (figure 1). I used Kleopatra to verify the signature (figure 2).
+
+- Open Kleopatra
+- Click Decrypt/Verify
+- Choose the file (that ends in .asc)
+- Open audit log to see ouput more clearly
+- Do the fingerprints match?
 
 ### ![h5_hashcat_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/ee7008a9-a24f-44b1-94ab-69ffb215e8dc)
+> Figure 1. Hashcat download page.
+
+### ![h5_hashcat_sig_verify](https://github.com/RenneJ/hh-infosec-course/assets/97522117/2730ec3b-e62a-4de7-b96f-ee412fba5d82)
+> Figure 2. Kleopatra verification audit log.
+
+After this you can unpack/extract the hashcat .7z file. Use 7-Zip File Manager. It's recommended to extract it to a location other than \Downloads. Downloads folder is often cleared so you don't want to have to install hashcat again.
+
+### Using hashcat
+
+Open Command Prompt (on windows 11 I always type cmd to search and press Enter). Then navigate to the location you unpacked hashcat to. You know you're in the right folder when the prompt in cmd says hashcat-[version.number].
+
 
 # Sources
 
