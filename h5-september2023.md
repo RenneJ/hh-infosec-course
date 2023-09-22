@@ -120,7 +120,7 @@ Download hashcat from the official website (https://hashcat.net/hashcat/)
 
 Check that the fingerprints match.
 
-### ![h5_hashcat_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/1058964c-d22e-4fcb-ab4d-7091877084a1)
+### ![h5_hashcat_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/ee7008a9-a24f-44b1-94ab-69ffb215e8dc)
 
 # Sources
 
