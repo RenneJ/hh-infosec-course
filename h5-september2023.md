@@ -139,9 +139,19 @@ After this you can unpack/extract the hashcat .7z file. Use 7-Zip File Manager. 
 Let's first download a wordlist. I downloaded the rockyou.txt raw file from GitHub (https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz) and unpacked it (figure 3).
 
 ### ![h5_hashcat_wordlist](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e7a43c10-62f8-49d3-9241-33a8dd9de0b9)
+> Figure 3. Unpacking rockyou.
 
-Open Command Prompt (on windows 11 I always type cmd to search and press Enter). Then navigate to the location you unpacked hashcat to. You know you're in the right folder when the prompt in cmd says hashcat-[version.number].
+Note that you need to unpack twice to get the .txt file that hashcat can utilise!
 
+Open Command Prompt (on windows 11 I always type cmd to search and press Enter). Then navigate to the location you unpacked hashcat to. You know you're in the right folder when the prompt in cmd says hashcat-[version.number]. From this point forward I use Tero's instructions with slight modifications to commands (https://terokarvinen.com/2022/cracking-passwords-with-hashcat/).
+
+### ![h5_hashcat_example_crack](https://github.com/RenneJ/hh-infosec-course/assets/97522117/487a6804-fd4e-45c7-b30c-e16980ae6c38)
+> Figure 4. View from Command Prompt.
+
+In fiure 4 I have started the hashcat password cracking. I faced a few problems. Firstly: I had to extract the rockyou wordlist another time and I also had to alter the command to match my directory specifications. Secondly: I got an error noting me about token length (figure 5) which was fixed by leaving the single quotes out.
+
+### ![h5_hashcat_error_01](https://github.com/RenneJ/hh-infosec-course/assets/97522117/826a5d71-fe73-48b9-b5c2-b03af548c720)
+> Figure 5. Hashcat token length exception.
 
 # Sources
 
