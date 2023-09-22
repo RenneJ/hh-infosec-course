@@ -118,6 +118,10 @@ I did this exercise as a demonstration during class. For this assignment I'm rep
 
 Download hashcat from the official website (https://hashcat.net/hashcat/)
 
+Check that the fingerprints match.
+
+### ![h5_hashcat_dl](https://github.com/RenneJ/hh-infosec-course/assets/97522117/1058964c-d22e-4fcb-ab4d-7091877084a1)
+
 # Sources
 
 Benenson, Z., Gassmann, F., & Landwirth, R. 2016. Exploiting curiosity and context: How to make people click on a dangerous link despite their security awareness
