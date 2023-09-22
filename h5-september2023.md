@@ -110,7 +110,7 @@ I was surprised by the numbers presented in the video. The amount of people who 
 
 # Cracking Hashes
 
-## Install Hashcat
+## Install Hashcat and Example Test
 
 I did this exercise as a demonstration during class. For this assignment I'm replicating and documenting the process on a Win11 Desktop.
 
@@ -155,6 +155,14 @@ In fiure 4 I have started the hashcat password cracking. I faced a few problems.
 
 ### ![h5_hashcat_solved_01](https://github.com/RenneJ/hh-infosec-course/assets/97522117/77e298c6-0244-44dc-b0a6-653bf4ed7a04)
 > Figure 6. Example hash cracked!
+
+## Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f
+
+### Identify hash type
+
+I got hashid working a bit differently on my win11 machine. I used the commands provided in hashid github repo (https://github.com/psypanda/hashID). Then I opened another cmd window and navigated to Python directory where I launched the hashid.py (figure 7). My input is the first line (highlighted yellow).
+
+### ![h5_hashid](https://github.com/RenneJ/hh-infosec-course/assets/97522117/86086a26-c416-494f-ac98-d6d233ed572f)
 
 # Sources
 
