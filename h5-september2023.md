@@ -163,16 +163,19 @@ In fiure 4 I have started the hashcat password cracking. I faced a few problems.
 I got hashid working a bit differently on my win11 machine. I used the commands provided in hashid github repo (https://github.com/psypanda/hashID). Then I opened another cmd window and navigated to Python directory where I launched the hashid.py (figure 7). My input is the first line (highlighted yellow).
 
 ### ![h5_hashid](https://github.com/RenneJ/hh-infosec-course/assets/97522117/86086a26-c416-494f-ac98-d6d233ed572f)
+> Figure 7. Output of hashid.py with input being the hash I'm attempting to crack.
 
 Let's get cracking with what we used before (MD5).
 
 ### ![h5_hashcat_crack](https://github.com/RenneJ/hh-infosec-course/assets/97522117/87275d4c-c8c8-4884-afb1-567a1b4dd231)
-> Figure 7. Cracked again.
+> Figure 8. Hashcat starting.
 
-Results are only in potfile now that -o [filename] was left out (figure 8).
+The has was indeed MD5 and the pre-image was in rockyou.txt. Results are only in potfile now that -o [filename] was left out (figure 8).
 
 ### ![h5_hashcat_potfile](https://github.com/RenneJ/hh-infosec-course/assets/97522117/890ac683-cfc3-478a-8c11-2e65e02f9b13)
 > Figure 8. The content of hashcat.potfile.
+
+So there we have it correct answer is: > february
 
 # Sources
 
