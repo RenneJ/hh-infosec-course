@@ -33,10 +33,25 @@
 
 ## Phishing through emails (Särökaari, 2018)
 
+**WHAT IS PHISHING?**
 
+- Phishing is a practise of sending emails to a target/targets in an attempt to get sensitive data that can be exploited to attacker's benefit
+  - The data the attacker seeks can be login credentials, personal information or other sensitive information
+  - Phsishing emails can contain links to malicious sites or harmful attachments
+
+**WHY PEOPLE CLICK PHISHING LINKS?**
+
+According to Benenson, Gassman and Landwirth (2016):
+
+- 34% curiosity
+- 27% message fit expectations
+- 16% thought they knew the sender
 
 # Sources
+
+Benenson, Z., Gassmann, F., & Landwirth, R. 2016. Exploiting curiosity and context: How to make people click on a dangerous link despite their security awareness
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
 
 Särökaari, N. 2018. Disobey 2018 - Phishing through email - Niklas Särökaari. Disobey. Video. URL: https://www.youtube.com/watch?v=m9YFJGSHYtY. Accessed: 2023/09/22.
+
