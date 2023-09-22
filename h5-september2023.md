@@ -49,26 +49,26 @@ According to Benenson, Gassman and Landwirth (2016):
 
 ### Protection mechanisms and how to bypass them
 
-🛡️**Sender Policy Framework (SPF)**🛡️
+🛡️ **Sender Policy Framework (SPF)** 🛡️
 
 - Email validation system
   - Receiving mail server checks if the sender's IP is allowed to send emails
   - A lot of organisations have misconfigured SPF records
     - Attacker could present themself as a member of that organisation
 
-🛡️**DomainKeys Identified Mail (DKIM)**🛡️
+🛡️ **DomainKeys Identified Mail (DKIM)** 🛡️
 
 - Email validation system
   - Sending mail server attaches a digital signature to email header
   - Recipient can validate that the email hasn't been altered during transit
 
-🛡️**Domain Message Authentication, Reporting & Conformance (DMARC)**🛡️
+🛡️ **Domain Message Authentication, Reporting & Conformance (DMARC)** 🛡️
 
 - Built on top of SPF and DKIM
 - Policy and reporting protocol
  - Notifies if someone is trying to abuse your email (e.g. impersonating as a member of your organisation)
 
-🛡️**Filtering**🛡️
+🛡️ **Filtering** 🛡️
 
 - Malware/spam filtering
 - Protection against (poorly made) malicious attachments
@@ -76,13 +76,13 @@ According to Benenson, Gassman and Landwirth (2016):
   - Only specific domains are allowed
     - There are bypasses to appear more legitimate
 
-🗡️**Site Cloning**🗡️
+🗡️ **Site Cloning** 🗡️
 
 - Effective for spear-phishing (targeted phishing attacks)
   - Usually goal is to get user credentials
 - Using only HTTPS is an effective protection aganist clone sites
 
-🗡️**IDN Homograph Attack**🗡️
+🗡️ **IDN Homograph Attack** 🗡️
 
 - Use similar looking characters to bypass detection e.g. cyrillic A looks similar to latin A but has different encoding
 
