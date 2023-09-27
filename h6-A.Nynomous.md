@@ -66,12 +66,14 @@ I have already installed Tor browser on my Ubuntu laptop and Windows desktop. So
 ### ![h6_i2p_geti2p](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d3e2a6ef-ce39-4ba4-97f5-675442837e17)
 > Figure 2. I2P download page. Src: https://geti2p.net/en/
 
+### ![h6_i2p_postinstall](https://github.com/RenneJ/hh-infosec-course/assets/97522117/7d29df8f-5981-4cea-bfb6-e1af3eeac061)
+> Figure 3. Excerpt of I2P postinstall instructions. Src: https://geti2p.net/en/download/2.3.0/clearnet/https/download.i2p2.no/i2pinstall_2.3.0_windows.exe/download
+
 3. Installing better browser
 - I already have Firefox and Tor browser so I skipped this step
 - I do however need to install a Firefox user profile for I2P
+  - The detailed instructions for Firefox configuration can be accessed at https://geti2p.net/en/download/2.3.0/clearnet/https/download.i2p2.no/I2P-Easy-Install-Bundle-2.3.0.exe/download#firefox
 
-### ![h6_i2p_postinstall](https://github.com/RenneJ/hh-infosec-course/assets/97522117/7d29df8f-5981-4cea-bfb6-e1af3eeac061)
-> Figure 3. Excerpt of I2P postinstall instructions. Src: https://geti2p.net/en/download/2.3.0/clearnet/https/download.i2p2.no/i2pinstall_2.3.0_windows.exe/download
 
 # Sources
 
