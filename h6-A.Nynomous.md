@@ -74,6 +74,17 @@ I have already installed Tor browser on my Ubuntu laptop and Windows desktop. So
 - I do however need to install a Firefox user profile for I2P
   - The detailed instructions for Firefox configuration can be accessed at https://geti2p.net/en/download/2.3.0/clearnet/https/download.i2p2.no/I2P-Easy-Install-Bundle-2.3.0.exe/download#firefox
 
+4. Configure bandwidth
+- At first startup I2P console greets you with preliminary configurations like language preference
+- Next it does a bandwidth test (figure 4)
+- I used the recommended speeds
+
+### ![h6_i2p_bandwidth_config](https://github.com/RenneJ/hh-infosec-course/assets/97522117/a051c760-22b4-4613-b5ec-595866830382)
+> Figure 4. Bandwidth test running. Src: localhost 😃
+
+### ![h6_i2p_notbob](https://github.com/RenneJ/hh-infosec-course/assets/97522117/1a99cbdd-4527-4c1c-9914-ea45e2d3a6b9)
+> Figure 5. I2P is up and running! View of I2P sites. Similar to what we discovered with Tor in class. Src: http://notbob.i2p/
+
 
 # Sources
 
