@@ -56,6 +56,14 @@ I have already installed Tor browser on my Ubuntu laptop and Windows desktop. So
 1. Installing Java
 - First I checked if I already have JRE installed (Java Runtime Environment).
   - I just had JDK (Java Development Kit) so I downloaded JRE (https://www.java.com/en/download/manual.jsp)
+- Then I ran the installation wizard and I was done
+
+2. Installing I2P
+- I navigated to I2P download page (figure 2)
+- I chose the correct OS and used the stable release installer (not the beta version which doesn't require JRE)
+
+### ![h6_i2p_geti2p](https://github.com/RenneJ/hh-infosec-course/assets/97522117/d3e2a6ef-ce39-4ba4-97f5-675442837e17)
+> Figure 2. I2P download page. Src: https://geti2p.net/en/
 
 # Sources
 
