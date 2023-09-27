@@ -17,7 +17,7 @@
 - It is not foolproof
   - You can identify yourself through tor if you are not careful
 
-## Hiding Behind the Keyboard (Shavers, Bair 2016)
+## Hiding Behind the Keyboard (Shavers & Bair 2016)
 
 ### Introduction
 
