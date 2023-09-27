@@ -9,13 +9,13 @@
   - Tor can help you protect yourself against criminal tactics such as identity theft
 - Truly open source
   - No military backdoors
-- It is legal to run a tor relay (node)
+- It is legal to run a Tor relay (node)
   - At least in the USA at the time of the article's publication
 - Easy to use
 - Slower than clearnet
   - More nodes would make it faster
 - It is not foolproof
-  - You can identify yourself through tor if you are not careful
+  - You can identify yourself through Tor if you are not careful
 
 ## Hiding Behind the Keyboard. Chapter 2: The Tor Browser (Shavers & Bair 2016)
 
@@ -43,8 +43,19 @@
 
 ### Tracking Criminals Using Tor
 
-- The weakest link in tor browser is the user
-  - The person using tor browser might turn on geolocation, scripts or other plugins that might compromise their true IP address
+- The weakest link in Tor browser is the user
+  - The person using Tor browser might turn on geolocation, scripts or other plugins that might compromise their true IP address
+ 
+## Installing I2P
+
+I have already installed Tor browser on my Ubuntu laptop and Windows desktop. So instead of doing it the third time I will install I2P.
+
+### ![h6_i2p_installsteps](https://github.com/RenneJ/hh-infosec-course/assets/97522117/e3bd2c11-875e-4b75-bfcc-6f7f286d0a49)
+> Figure 1. Installing steps. Src: https://geti2p.net/en/download/windows
+
+1. Installing Java
+- First I checked if I already have JRE installed (Java Runtime Environment).
+  - I just had JDK (Java Development Kit) so I downloaded JRE (https://www.java.com/en/download/manual.jsp)
 
 # Sources
 
