@@ -93,7 +93,20 @@ Then to generate key pairs:
 
        $ ssh-keygen
 
-This command generates two keys. A public key and a private key.
+This command generates two keys. A public key and a private key. After this we run:
+
+       $ ssh-copy-id renne@localhost
+
+This installs the key as an authorized key.
+
+Now I can establish an ssh connection between two users so let's make a new user.
+
+       $ adduser test01
+
+Use a strong password when prompted. The other fields can be left empty (name, email etc.).
+
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/41f908b8-d156-46fc-b611-cc618450727c)
+> Figure 4. Ssh connection established.
 
 # Sources
 
