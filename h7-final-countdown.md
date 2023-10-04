@@ -51,6 +51,50 @@ Finally let's turn on the changes:
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/950d87d3-55e5-4c8b-8eb9-b9265d48d9ec)
 > Image 2. View of ufw status in terminal after enabling a new rule.
 
+I will be using SSH on the next assignment so let's leave it enabled.
+
+# OpenSSH
+
+OpenSSH is a tool used in Linux systems to establish SSH communications. On Windows machines you can use PuTTY.
+
+Let's start again with:
+
+       $ sudo apt-get update
+
+Installing OpenSSH:
+
+       $ sudo apt-get install ssh
+
+I will skip this part as I have already done installing OpenSSH. To check your version of OpenSSH (V is uppercase):
+
+       $ ssh -V
+
+To check if OpenSSH is already running you can use:
+
+       $ systemctl | grep ssh
+
+If the above command yields no output OpenSSH is not running.
+
+The command systemctl alone will give you an output of all running system processes. The grep ssh command will filter the output so that it will only show processes that have the string ssh in it.
+
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/0670111f-ee0d-44c9-a6f4-4f7afaa44424)
+> Image 3. Checking if ssh is already running.
+
+To start OpenSSH:
+
+       $ sudo systemctl start ssh
+
+To stop OpenSSH:
+
+       $ sudo systemctl stop ssh
+       $ sudo systemctl disable ssh
+
+Then to generate key pairs:
+
+       $ ssh-keygen
+
+This command generates two keys. A public key and a private key.
+
 # Sources
 
 Ubuntu Documentation, 2013. Firewall. https://help.ubuntu.com/community/Firewall. Accessed: 2023/10/04
