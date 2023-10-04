@@ -110,4 +110,6 @@ Use a strong password when prompted. The other fields can be left empty (name, e
 
 # Sources
 
+SSH, 2023. SSH Academy. https://www.ssh.com/academy. Accessed: 2023/10/04
+
 Ubuntu Documentation, 2013. Firewall. https://help.ubuntu.com/community/Firewall. Accessed: 2023/10/04
