@@ -36,7 +36,9 @@ I skipped this step as I already had installed ufw before I reset the configurat
 > sudo ufw reset
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/4c860a9e-6a52-48ad-84dd-e20a81f609f6)
-> Image 1. View after resetting ufw.
+> Image 1. View of ufw status in terminal after resetting.
+
+
 
 # Sources
 
