@@ -49,6 +49,7 @@ Finally let's turn on the changes:
        $ sudo ufw enable
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/950d87d3-55e5-4c8b-8eb9-b9265d48d9ec)
+> Image 2. View of ufw status in terminal after enabling a new rule.
 
 # Sources
 
