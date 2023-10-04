@@ -38,7 +38,17 @@ I skipped this step as I already had installed ufw before. But I reset the confi
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/4c860a9e-6a52-48ad-84dd-e20a81f609f6)
 > Image 1. View of ufw status in terminal after resetting.
 
+After installing (or resetting in my case) we can start making rules to the firewall.
 
+       $ sudo ufw allow 22/tcp
+
+This command makes a new rule which allows traffic through the port number 22 using TCP (Transmission Control Protocol). Port 22 is a reserved port which is only used for SSH (Secure Shell) and protocols derived from it such as SCP and SFTP (SSH Copy and SSH File Transfer Protocol).
+
+Finally let's turn on the changes:
+
+       $ sudo ufw enable
+
+### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/950d87d3-55e5-4c8b-8eb9-b9265d48d9ec)
 
 # Sources
 
