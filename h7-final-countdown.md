@@ -31,7 +31,7 @@ Then we can install the wanted package with apt-get. Ufw stands for Uncomplicate
 
        $ sudo apt-get install ufw
 
-I skipped this step as I already had installed ufw before I reset the configurations to install defaults.
+I skipped this step as I already had installed ufw before. But I reset the configurations to install defaults with the following command:
 
        $ sudo ufw reset
 
