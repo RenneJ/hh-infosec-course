@@ -25,15 +25,15 @@ The following paragraph is from apt-get documentation (man apt-get).
 
 So the first step is:
 
-       > sudo apt-get update
+       $ sudo apt-get update
 
 Then we can install the wanted package with apt-get. Ufw stands for Uncomplicated Firewall. Actually, ufw is the front end of a database called iptables which can be used to configure the rules of network traffic in Linux systems. Ufw makes setting the firewall rules easier. (Ubuntu Documentation, 2013)
 
-       > sudo apt-get install ufw
+       $ sudo apt-get install ufw
 
 I skipped this step as I already had installed ufw before I reset the configurations to install defaults.
 
-       > sudo ufw reset
+       $ sudo ufw reset
 
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/4c860a9e-6a52-48ad-84dd-e20a81f609f6)
 > Image 1. View of ufw status in terminal after resetting.
