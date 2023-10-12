@@ -55,7 +55,7 @@ Injections are an attacker's attempts to manipulate commands sent in an applicat
 - There's no context-aware escaping.
   - ![Screenshot from 2023-09-02 16-20-17](https://github.com/RenneJ/hh-infosec-course/assets/97522117/93c2ea72-73e2-4122-a52d-e8b38fb32738)
 
-    Image source: jmaloney 2015 https://stackoverflow.com/questions/28142771/what-are-context-aware-variables.
+  Image 1. Screenshot from a StackOverflow exchange. Answered by user: jmaloney.
 
 - *Hostile data is used within object-relational mapping (ORM) search parameters to extract additional, sensitive records.* (I am unsure what this means)
 - User input is used directly or is concatenated. Eg. user can input malicious SQL query into the application and it's interpreted as is.
@@ -179,3 +179,5 @@ SUCCESS! What sort of solutions did you come up with?
 ## Sources
 
 Karvinen, T. 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h2-spiderwebs Accessed: 2023/10/12
+
+StackOverflow. What are context aware variables?. https://stackoverflow.com/questions/28142771/what-are-context-aware-variables Accessed: 2023/10/12
