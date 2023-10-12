@@ -1,4 +1,6 @@
-# Summaries
+# [H5 September2023!](https://terokarvinen.com/2023/information-security-2023-autumn/#h4-september2023) (Karvinen 2023)
+
+## Summaries
 
 ## Applied Cryptography: Chapter 2: Protocol Building Blocks (Schneier, 2015)
 
@@ -211,6 +213,8 @@ The email link would take the target to a site where they would be asked to inpu
 # Sources
 
 Benenson, Z., Gassmann, F., & Landwirth, R. 2016. Exploiting curiosity and context: How to make people click on a dangerous link despite their security awareness
+
+Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h4-september2023 Accessed: 2023/10/12
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
 
