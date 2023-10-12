@@ -243,7 +243,7 @@ Start penetration testing before the network updgrades, continue them during imp
 
 ### Sources
 
-Braiterman et al, 2020. Threat Modeling Manifesto. https://www.threatmodelingmanifesto.org/ Accessed: 2023/10/12
+Braiterman, Z. et al, 2020. Threat Modeling Manifesto. https://www.threatmodelingmanifesto.org/ Accessed: 2023/10/12
 
 CheatSheets Series Team, 2021. Threat Modeling Cheat Sheet. https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html Accessed: 2023/10/12
 
