@@ -271,14 +271,16 @@ Decrypting is easy. I just double-click the file I want to open and Kleopatra op
 
 # Sources
 
-Callas et al., 2007. OpenPGP Message Format. https://www.ietf.org/rfc/rfc4880.txt. Read: 2023/09/16
+Callas et al., 2007. OpenPGP Message Format. https://www.ietf.org/rfc/rfc4880.txt. Accessed: 2023/09/16
 
-KeePassXC Team 2023. Documentation and FAQ. https://keepassxc.org/docs/. Read: 2023/09/15
+Karvinen, T. 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h4-etaoin Accessed: 2023/10/12
+
+KeePassXC Team 2023. Documentation and FAQ. https://keepassxc.org/docs/. Accessed: 2023/09/15
 
 Pääkkönen, M. 1991. A:sta Ö:hön. Suomen kielen yleisyystilastoja. Kielikello 1/1991. (In Finnish)
 
 Schneier, B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. New York: Wiley.
 
-Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Read: 2023/09/15
+Smith, B. 2022. A Quick Guide to GPLv3. https://www.gnu.org/licenses/quick-guide-gplv3.html. Accessed: 2023/09/15
 
 
