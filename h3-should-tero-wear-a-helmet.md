@@ -17,7 +17,7 @@ I think the above questions form the essence of threat modeling and should be re
 
 Threat modeling enables you to perceive the risks in the system and helps you identify them so that proper decisions can be made.
 
-#### Do:
+**Do:**
 
 - systematic approach
 - allow creativity along scientific approach
@@ -25,7 +25,7 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 - use proper tools
 - implement theory into practice
 
-#### Don't:
+**Don't:**
 
 - think threat modeling is for the few, it is for all
 - admire the problem, you need to find practical solutions
@@ -144,7 +144,7 @@ Below are listed best practices regarding security hygiene. I have put my evalua
 
 What do you think? Do you agree with my list? Or do you think there's something wrong or missing?
 
-# Make-believe boogeyman - a threat model for a company
+# Make-believe boogeyman - a threat model for a company (Karvinen 2023)
 
 ## The Taxi Company
 
@@ -244,6 +244,8 @@ Start penetration testing before the network updgrades, continue them during imp
 ### Sources
 
 Braiterman et al, 2020. Threat Modeling Manifesto. https://www.threatmodelingmanifesto.org/ Accessed: 2023/10/12
+
+CheatSheets Series Team, 2021. Threat Modeling Cheat Sheet. https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html Accessed: 2023/10/12
 
 Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h3-should-tero-wear-a-helmet Accessed: 2023/10/12
 
