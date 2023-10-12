@@ -1,4 +1,4 @@
-# H2: Spiderwebs
+# [H2: Spiderwebs](https://terokarvinen.com/2023/information-security-2023-autumn/#h2-spiderwebs)
 
 ## OWASP 10 2021
 
@@ -175,3 +175,7 @@ Afterwards I tried to come to the same result via different method.
 ### ![image](https://github.com/RenneJ/hh-infosec-course/assets/97522117/dff0af94-d28d-4827-a0f2-938a4dc86203)
 
 SUCCESS! What sort of solutions did you come up with?
+
+## Sources
+
+Karvinen, T. 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h2-spiderwebs Accessed: 2023/10/12
