@@ -1,4 +1,4 @@
-# [H2: Spiderwebs](https://terokarvinen.com/2023/information-security-2023-autumn/#h2-spiderwebs)
+# [H2: Spiderwebs](https://terokarvinen.com/2023/information-security-2023-autumn/#h2-spiderwebs) (Karvinen 2023)
 
 ## OWASP 10 2021
 
