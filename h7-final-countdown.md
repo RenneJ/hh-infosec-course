@@ -1,12 +1,14 @@
-# Link to assignment submissions
+# [H7 Final Countdown](https://terokarvinen.com/2023/information-security-2023-autumn/#h6-final-countdown) (Karvinen 2023)
+
+## Link to assignment submissions
 
 https://github.com/RenneJ/hh-infosec-course
 
-# Cross-evaluations
+## Cross-evaluations
 
 Cross-evaluations are submitted to Haaga-Helia Moodle.
 
-# Firewall
+## Firewall
 
 Before installing or upgrading packages in Linux environment it is important to update the sources so that you get the right packages.
 
@@ -109,6 +111,8 @@ Use a strong password when prompted. The other fields can be left empty (name, e
 > Figure 4. Ssh connection established.
 
 # Sources
+
+Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h6-final-countdown Accessed: 2023/10/12
 
 SSH, 2023. SSH Academy. https://www.ssh.com/academy. Accessed: 2023/10/04
 
