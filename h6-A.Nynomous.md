@@ -1,4 +1,6 @@
-# Summaries
+# [H6 A. Nynomous](https://terokarvinen.com/2023/information-security-2023-autumn/#h5-a-nynomous) (Karvinen 2023)
+
+## Summaries
 
 ## 7 Things You Should Know About Tor (Quintin 2014)
 
@@ -87,6 +89,8 @@ I have already installed Tor browser on my Ubuntu laptop and Windows desktop. So
 
 
 # Sources
+
+Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h5-a-nynomous Accessed: 2023/10/12
 
 Shavers, B. & Bair, J. 2016. Hiding behind the keyboard: Uncovering covert communication methods with forensic analysis. Syngress. Ch. 2.
 
