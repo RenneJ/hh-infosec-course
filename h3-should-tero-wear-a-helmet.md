@@ -46,7 +46,7 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 10. Threat modeling is used to manage risks by informing about possible threats.
 11. Would you recommend a colleague to threat model? If yes: good job! Else: keep working on it!
 
-### [Threat Modeling: Designing for Security. Chapter 1: Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1) (Shostack 2014)
+### [Threat Modeling: Designing for Security. Chapter 1: Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1) (Shostack 2014, chapter 1)
 
 - Everyone should threat model.
 - Modeling helps you distinguish the big picture.
@@ -243,4 +243,10 @@ Start penetration testing before the network updgrades, continue them during imp
 
 ### Sources
 
-Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h3-should-tero-wear-a-helmet Accessed: 2023/10/12 
+Braiterman et al, 2020. Threat Modeling Manifesto. https://www.threatmodelingmanifesto.org/ Accessed: 2023/10/12
+
+Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h3-should-tero-wear-a-helmet Accessed: 2023/10/12
+
+Shostack, A. 2014. Threat Modeling: Designing for Security. Wiley.
+
+Shostack, A. 2022. World's Shortest Threat Modeling Course. https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf Accessed: 2023/10/12
