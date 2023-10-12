@@ -35,5 +35,7 @@ Moral of the story is: don't anger a haXXor lol jk take care of your passwords. 
 ## Sources
 
 Hutchins et al, 2011. Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. Lockheed Martin.
+
 Karvinen, T. 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h1-first-steps Accessed: 2023/10/12
+
 Rhysider, J., 2022. EP 113: Adam. Darknet Diaries. https://darknetdiaries.com/episode/113/ Accessed: 2023/10/12
