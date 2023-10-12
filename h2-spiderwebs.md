@@ -81,7 +81,7 @@ Mitigation:
 
 ## WebGoat
 
-### Installation
+### Installation (Karvinen 2023)
 
 Following Tero's guide I was able to install Java tools. This was done on Monday 28th. I replaced the older jdk version 
 11 with the newer 17 on the installation command. So the command i used was:
