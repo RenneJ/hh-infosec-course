@@ -1,6 +1,8 @@
-# Summaries
+# [H3 Should Tero Wear a Helmet?](https://terokarvinen.com/2023/information-security-2023-autumn/#h3-should-tero-wear-a-helmet) (Karvinen 2023)
 
-## [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) (Braiterman et al., 2020)
+## Summaries
+
+### [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) (Braiterman et al., 2020)
 
 Threat modeling = the process of identifying dangers to a system's security or privacy
 
@@ -15,7 +17,7 @@ I think the above questions form the essence of threat modeling and should be re
 
 Threat modeling enables you to perceive the risks in the system and helps you identify them so that proper decisions can be made.
 
-### Do:
+#### Do:
 
 - systematic approach
 - allow creativity along scientific approach
@@ -23,14 +25,14 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 - use proper tools
 - implement theory into practice
 
-### Don't:
+#### Don't:
 
 - think threat modeling is for the few, it is for all
 - admire the problem, you need to find practical solutions
 - overfocus
 - try to create a perfect representation, there is no single ideal view, aim to create many representations to light different problems
 
-## [World's Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf) (Shostack, 2022)
+### [World's Shortest Threat Modeling Course](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf) (Shostack, 2022)
 
 1. Do threat modeling early when it is inexpensive to deal with the problems that might rise.
 2. Threat modeling is asking yourself (or your team) the four key questions: **What are we working on? What can go wrong? What are we going to do about it? Did we do a good enough job?**
@@ -44,7 +46,7 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 10. Threat modeling is used to manage risks by informing about possible threats.
 11. Would you recommend a colleague to threat model? If yes: good job! Else: keep working on it!
 
-## [Threat Modeling: Designing for Security. Chapter 1: Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1) (Shostack 2014)
+### [Threat Modeling: Designing for Security. Chapter 1: Dive In and Threat Model!](https://www.oreilly.com/library/view/threat-modeling-designing/9781118810057/9781118810057c01.xhtml#c1) (Shostack 2014)
 
 - Everyone should threat model.
 - Modeling helps you distinguish the big picture.
@@ -52,14 +54,14 @@ Threat modeling enables you to perceive the risks in the system and helps you id
 - It allows you to anticipate future threats.
 - Effective threat modeling takes time and requires practice.
 
-## [Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) (CheatSheets Series Team, 2021)
+### [Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) (CheatSheets Series Team, 2021)
 
 When creating threat models:
 - document data flows
 - document all the threats to the system
 - document security controls, things that mitigate threats' likelihood and impact
 
-### Terminology
+#### Terminology
 
 **Threat agent** - baddie/baddies, an actor who is capable of carrying out an attack.
 
@@ -117,11 +119,11 @@ Define impact and probability for each threat, enumerate risks.
 
 Rank them based on their probability and impact.
 
-### Determine countermeasures and mitigation
+#### Determine countermeasures and mitigation
 
 Identify the risk owners and come up with the solution to mitigate or eliminate the risk (or do nothing).
 
-# Security Hygiene
+## Security Hygiene
 
 Ask yourself: what sort of information about myself am I willing to share with strangers or risk losing? Then take appropriate steps to secure whatever it is that you value highly.
 
@@ -238,3 +240,7 @@ These are represented from highest to lowest risk. These are possible cases and 
 ## Did we do a good job?
 
 Start penetration testing before the network updgrades, continue them during implementation and after completion. Report findings, enumerate as much as possible to gain verifiable data for future. When the security of system gets better and more sophisticated so will the potential threts. After these initial upgrades we shall start going through targeted attacks and examine the relevance of more obscure attack methods (listed in OWASP TOP 10) against our systems.
+
+### Sources
+
+Karvinen, T., 2023. Information Security 2023 Autumn. https://terokarvinen.com/2023/information-security-2023-autumn/#h3-should-tero-wear-a-helmet Accessed: 2023/10/12 
